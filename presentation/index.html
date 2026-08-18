@@ -8,9 +8,11 @@
     <meta name="description"
         content="Animated presentation of derailment of Train No. 08895 at MURI Yard on 16-08-2026 with speed, time and distance analysis">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css?v=4">
 </head>
 
 <body>
@@ -186,32 +188,31 @@
             <h2>Live Derailment Animation</h2>
         </div>
 
-        <!-- HUD Overlay -->
-        <div class="hud-panel">
-            <div class="hud-item">
-                <div class="hud-label">TIME</div>
-                <div class="hud-value" id="hud-time">01:36:13</div>
-            </div>
-            <div class="hud-item">
-                <div class="hud-label">SPEED</div>
-                <div class="hud-value" id="hud-speed">0 <small>kmph</small></div>
-            </div>
-            <div class="hud-item">
-                <div class="hud-label">DISTANCE</div>
-                <div class="hud-value" id="hud-distance">0 <small>m</small></div>
-            </div>
-            <div class="hud-item">
-                <div class="hud-label">THROTTLE</div>
-                <div class="hud-value" id="hud-throttle"><span class="throttle-badge te">TE</span></div>
-            </div>
-            <div class="hud-item">
-                <div class="hud-label">STATUS</div>
-                <div class="hud-value" id="hud-status">STARTING</div>
-            </div>
-        </div>
-
         <!-- Yard Animation Canvas -->
         <div class="yard-container" id="yard-container">
+            <!-- HUD Overlay -->
+            <div class="hud-panel">
+                <div class="hud-item">
+                    <div class="hud-label">TIME</div>
+                    <div class="hud-value" id="hud-time">01:36:13</div>
+                </div>
+                <div class="hud-item">
+                    <div class="hud-label">SPEED</div>
+                    <div class="hud-value" id="hud-speed">0 <small>kmph</small></div>
+                </div>
+                <div class="hud-item">
+                    <div class="hud-label">DISTANCE</div>
+                    <div class="hud-value" id="hud-distance">0 <small>m</small></div>
+                </div>
+                <div class="hud-item">
+                    <div class="hud-label">THROTTLE</div>
+                    <div class="hud-value" id="hud-throttle"><span class="throttle-badge te">TE</span></div>
+                </div>
+                <div class="hud-item">
+                    <div class="hud-label">STATUS</div>
+                    <div class="hud-value" id="hud-status">STARTING</div>
+                </div>
+            </div>
             <!-- Sky gradient background -->
             <div class="yard-sky"></div>
 
@@ -249,7 +250,7 @@
                 <text id="drag-text" x="820" y="300" fill="#dc2626" font-weight="bold" font-size="12"
                     font-family="JetBrains Mono" transform="rotate(7, 820, 288)" opacity="1">87m drag</text>
 
-                <!-- Path step labels -->
+                <!-- Path step labels
                 <text x="35" y="45" fill="#0369a1" font-size="11" font-weight="700" font-family="JetBrains Mono"
                     opacity="0.8">① UP</text>
                 <text x="70" y="105" fill="#0369a1" font-size="11" font-weight="700" font-family="JetBrains Mono"
@@ -257,7 +258,7 @@
                 <text x="140" y="130" fill="#0369a1" font-size="11" font-weight="700" font-family="JetBrains Mono"
                     opacity="0.8">③ DN</text>
                 <text x="225" y="180" fill="#0369a1" font-size="11" font-weight="700" font-family="JetBrains Mono"
-                    opacity="0.8">④</text>
+                    opacity="0.8">④</text> -->
 
                 <!-- Compass -->
                 <g transform="translate(1150, 35)">
@@ -527,7 +528,7 @@
     </div>
 
     <!-- Application Script -->
-    <script src="script.js?v=3"></script>
+    <script src="script.js?v=4"></script>
 </body>
 
 </html>
