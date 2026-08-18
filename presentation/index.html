@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MURI Yard Derailment Analysis - Train No. 08695 | 16-08-2026</title>
+    <meta name="description" content="Animated presentation of derailment of Train No. 08695 at MURI Yard on 16-08-2026 with speed, time and distance analysis">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- SLIDE 0: Title Slide -->
+    <div class="slide active" id="slide-title">
+        <div class="title-bg-animation"></div>
+        <div class="title-content">
+            <div class="badge">INVESTIGATION REPORT</div>
+            <h1 class="title-main">Derailment Analysis</h1>
+            <h2 class="title-sub">Train No. 08695 at MURI Yard</h2>
+            <div class="title-date">
+                <span class="date-icon">📅</span> 16th August 2026
+            </div>
+            <div class="title-details">
+                <div class="detail-chip"><span>🕐</span> Time: 01:36 - 01:39 hrs</div>
+                <div class="detail-chip"><span>📍</span> Location: MURI Yard</div>
+                <div class="detail-chip"><span>🚂</span> Train: 08695</div>
+            </div>
+            <div class="start-hint">Press <kbd>→</kbd> or click <kbd>Next</kbd> to begin</div>
+        </div>
+    </div>
+
+    <!-- SLIDE 1: Overview -->
+    <div class="slide" id="slide-overview">
+        <div class="slide-header">
+            <span class="slide-number">01</span>
+            <h2>Incident Overview</h2>
+        </div>
+        <div class="overview-grid">
+            <div class="overview-card" style="--delay: 0.1s">
+                <div class="card-icon">🚂</div>
+                <div class="card-label">Train Number</div>
+                <div class="card-value">08695</div>
+            </div>
+            <div class="overview-card" style="--delay: 0.2s">
+                <div class="card-icon">📍</div>
+                <div class="card-label">Location</div>
+                <div class="card-value">MURI Yard</div>
+            </div>
+            <div class="overview-card" style="--delay: 0.3s">
+                <div class="card-icon">📅</div>
+                <div class="card-label">Date</div>
+                <div class="card-value">16-08-2026</div>
+            </div>
+            <div class="overview-card" style="--delay: 0.4s">
+                <div class="card-icon">🕐</div>
+                <div class="card-label">Train Start</div>
+                <div class="card-value">01:36:13</div>
+            </div>
+            <div class="overview-card" style="--delay: 0.5s">
+                <div class="card-icon">⚠️</div>
+                <div class="card-label">Derailment Time</div>
+                <div class="card-value highlight-red">01:39:12</div>
+            </div>
+            <div class="overview-card" style="--delay: 0.6s">
+                <div class="card-icon">🛑</div>
+                <div class="card-label">Train Stop</div>
+                <div class="card-value">01:39:49</div>
+            </div>
+            <div class="overview-card" style="--delay: 0.7s">
+                <div class="card-icon">📏</div>
+                <div class="card-label">Total Distance</div>
+                <div class="card-value">746 m</div>
+            </div>
+            <div class="overview-card" style="--delay: 0.8s">
+                <div class="card-icon">⏱️</div>
+                <div class="card-label">Total Duration</div>
+                <div class="card-value">216 sec</div>
+            </div>
+        </div>
+        <div class="overview-summary">
+            <h3>Key Findings</h3>
+            <ul>
+                <li>Loco length: <strong>20.562 m</strong> | Coach length: <strong>22.297 m</strong></li>
+                <li>Front portion (Loco + 3 coaches): <strong>87.453 m</strong></li>
+                <li>Coach No. 3 rear trolley dragged: <strong>87 m</strong> after derailment</li>
+                <li>9 m parting gap formed between Coach 3 and Coach 4</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- SLIDE 2: Speed Data Table -->
+    <div class="slide" id="slide-data">
+        <div class="slide-header">
+            <span class="slide-number">02</span>
+            <h2>Speed, Time & Distance Data</h2>
+        </div>
+        <div class="data-table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Time From</th>
+                        <th>Time To</th>
+                        <th>Duration (sec)</th>
+                        <th>From Speed (kmph)</th>
+                        <th>To Speed (kmph)</th>
+                        <th>Throttle</th>
+                        <th>Distance (m)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="row-start">
+                        <td>01:36:13</td>
+                        <td>01:36:35</td>
+                        <td>22</td>
+                        <td>0</td>
+                        <td>15</td>
+                        <td><span class="throttle-badge te">TE</span></td>
+                        <td>46</td>
+                    </tr>
+                    <tr>
+                        <td>01:36:36</td>
+                        <td>01:36:51</td>
+                        <td>16</td>
+                        <td>15</td>
+                        <td>17</td>
+                        <td><span class="throttle-badge te">TE</span></td>
+                        <td>72</td>
+                    </tr>
+                    <tr class="row-coast">
+                        <td>01:36:52</td>
+                        <td>01:38:38</td>
+                        <td>107</td>
+                        <td>17</td>
+                        <td>10</td>
+                        <td><span class="throttle-badge coast">Coasting</span></td>
+                        <td>376</td>
+                    </tr>
+                    <tr>
+                        <td>01:38:39</td>
+                        <td>01:38:58</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>22</td>
+                        <td><span class="throttle-badge te">TE</span></td>
+                        <td>109</td>
+                    </tr>
+                    <tr class="row-brake">
+                        <td>01:38:59</td>
+                        <td>01:39:03</td>
+                        <td>5</td>
+                        <td>22</td>
+                        <td>15</td>
+                        <td><span class="throttle-badge brake">Braking</span></td>
+                        <td>26</td>
+                    </tr>
+                    <tr class="row-stop">
+                        <td>01:39:04</td>
+                        <td>01:39:49</td>
+                        <td>46</td>
+                        <td>15</td>
+                        <td>0</td>
+                        <td><span class="throttle-badge te">TE</span></td>
+                        <td>117</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>TOTAL</strong></td>
+                        <td><strong>216</strong></td>
+                        <td colspan="3"></td>
+                        <td><strong>746</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <!-- SLIDE 3: LIVE ANIMATION -->
+    <div class="slide" id="slide-animation">
+        <div class="slide-header">
+            <span class="slide-number">03</span>
+            <h2>Live Derailment Animation</h2>
+        </div>
+
+        <!-- HUD Overlay -->
+        <div class="hud-panel">
+            <div class="hud-item">
+                <div class="hud-label">TIME</div>
+                <div class="hud-value" id="hud-time">01:36:13</div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-label">SPEED</div>
+                <div class="hud-value" id="hud-speed">0 <small>kmph</small></div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-label">DISTANCE</div>
+                <div class="hud-value" id="hud-distance">0 <small>m</small></div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-label">THROTTLE</div>
+                <div class="hud-value" id="hud-throttle"><span class="throttle-badge te">TE</span></div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-label">STATUS</div>
+                <div class="hud-value" id="hud-status">STARTING</div>
+            </div>
+        </div>
+
+        <!-- Yard Animation Canvas -->
+        <div class="yard-container" id="yard-container">
+            <!-- Sky gradient background -->
+            <div class="yard-sky"></div>
+
+            <!-- Direction labels on main line -->
+            <div class="direction-label dir-left">← TO MURI<br><small>(STN BLDG)</small></div>
+            <div class="direction-label dir-right">TO BARKAKANA →<br><small>(BARLANGA)</small></div>
+
+            <!-- Train movement direction arrow -->
+            <div class="direction-arrow">
+                <span class="arrow-icon">⟶</span>
+                <span>TRAIN MOVEMENT DIRECTION</span>
+                <span class="arrow-icon">⟶</span>
+            </div>
+
+            <!-- SVG Track Layout matching the sketch -->
+            <svg class="track-svg" id="track-svg" viewBox="0 0 1200 380" preserveAspectRatio="none">
+                <defs>
+                    <pattern id="hatch" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+                        <line x1="0" y1="0" x2="0" y2="8" stroke="rgba(245,158,11,0.15)" stroke-width="1.5"/>
+                    </pattern>
+                </defs>
+
+                <!-- MAIN LINE 1 (UP Line) -->
+                <line x1="0" y1="55" x2="1200" y2="55" stroke="#4a5568" stroke-width="2.5" opacity="0.4"/>
+                <line x1="0" y1="70" x2="1200" y2="70" stroke="#4a5568" stroke-width="2.5" opacity="0.4"/>
+                <g opacity="0.2" stroke="#5a4a3a" stroke-width="3">
+                    <line x1="15" y1="50" x2="15" y2="75"/><line x1="35" y1="50" x2="35" y2="75"/>
+                    <line x1="55" y1="50" x2="55" y2="75"/><line x1="75" y1="50" x2="75" y2="75"/>
+                    <line x1="95" y1="50" x2="95" y2="75"/><line x1="115" y1="50" x2="115" y2="75"/>
+                    <line x1="135" y1="50" x2="135" y2="75"/><line x1="155" y1="50" x2="155" y2="75"/>
+                    <line x1="175" y1="50" x2="175" y2="75"/><line x1="195" y1="50" x2="195" y2="75"/>
+                    <line x1="215" y1="50" x2="215" y2="75"/><line x1="235" y1="50" x2="235" y2="75"/>
+                </g>
+
+                <!-- MAIN LINE 2 (DN Line) -->
+                <line x1="0" y1="95" x2="1200" y2="95" stroke="#4a5568" stroke-width="2.5" opacity="0.4"/>
+                <line x1="0" y1="110" x2="1200" y2="110" stroke="#4a5568" stroke-width="2.5" opacity="0.4"/>
+                <g opacity="0.2" stroke="#5a4a3a" stroke-width="3">
+                    <line x1="15" y1="90" x2="15" y2="115"/><line x1="35" y1="90" x2="35" y2="115"/>
+                    <line x1="55" y1="90" x2="55" y2="115"/><line x1="75" y1="90" x2="75" y2="115"/>
+                    <line x1="95" y1="90" x2="95" y2="115"/><line x1="115" y1="90" x2="115" y2="115"/>
+                    <line x1="135" y1="90" x2="135" y2="115"/><line x1="155" y1="90" x2="155" y2="115"/>
+                    <line x1="175" y1="90" x2="175" y2="115"/><line x1="195" y1="90" x2="195" y2="115"/>
+                    <line x1="215" y1="90" x2="215" y2="115"/><line x1="235" y1="90" x2="235" y2="115"/>
+                </g>
+
+                <!-- Main line labels -->
+                <text x="1150" y="48" fill="#64748b" font-size="10" font-family="JetBrains Mono" text-anchor="end" opacity="0.7">UP Line</text>
+                <text x="1150" y="88" fill="#64748b" font-size="10" font-family="JetBrains Mono" text-anchor="end" opacity="0.7">DN Line</text>
+
+                <!-- TRAIN PATH HIGHLIGHT (cyan glow) -->
+                <line x1="10" y1="62" x2="70" y2="62" stroke="#06b6d4" stroke-width="4" opacity="0.2"/>
+                <path d="M 70,62 Q 95,78 120,102" stroke="#06b6d4" stroke-width="4" fill="none" opacity="0.2"/>
+                <line x1="120" y1="102" x2="200" y2="102" stroke="#06b6d4" stroke-width="4" opacity="0.2"/>
+                <path d="M 200,102 Q 240,125 280,148" stroke="#06b6d4" stroke-width="4" fill="none" opacity="0.2"/>
+
+                <!-- CROSSOVER 1: UP → DN (near MURI station) -->
+                <path d="M 60,70 Q 90,82 120,95" stroke="#718096" stroke-width="2.5" fill="none" opacity="0.6"/>
+                <path d="M 60,55 Q 90,68 120,80" stroke="#718096" stroke-width="2.5" fill="none" opacity="0.6"/>
+                <rect x="45" y="48" width="90" height="72" fill="url(#hatch)" opacity="0.5" rx="3"/>
+
+                <!-- CROSSOVER 2: DN → Branch (PT. No. 78) -->
+                <path d="M 190,110 Q 230,135 280,155" stroke="#718096" stroke-width="2.5" fill="none" opacity="0.6"/>
+                <path d="M 190,95 Q 230,120 280,140" stroke="#718096" stroke-width="2.5" fill="none" opacity="0.6"/>
+                <rect x="170" y="85" width="130" height="85" fill="url(#hatch)" opacity="0.6" rx="3"/>
+                <circle cx="235" cy="103" r="5" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.8"/>
+                <circle cx="235" cy="103" r="2.5" fill="#ef4444" opacity="0.6"/>
+
+                <!-- BRANCH TRACK (curved SE) -->
+                <path d="M 280,140 Q 400,185 550,220 Q 700,250 900,280 L 1200,315" stroke="#718096" stroke-width="3" fill="none" opacity="0.8"/>
+                <path d="M 280,155 Q 400,200 550,235 Q 700,265 900,295 L 1200,330" stroke="#718096" stroke-width="3" fill="none" opacity="0.8"/>
+                <g opacity="0.3" stroke="#5a4a3a" stroke-width="3">
+                    <line x1="310" y1="148" x2="305" y2="168"/><line x1="350" y1="160" x2="345" y2="180"/>
+                    <line x1="390" y1="170" x2="385" y2="190"/><line x1="430" y1="180" x2="425" y2="200"/>
+                    <line x1="470" y1="190" x2="465" y2="210"/><line x1="510" y1="199" x2="505" y2="219"/>
+                    <line x1="550" y1="207" x2="545" y2="227"/><line x1="590" y1="215" x2="585" y2="235"/>
+                    <line x1="630" y1="222" x2="625" y2="242"/><line x1="670" y1="230" x2="665" y2="250"/>
+                    <line x1="710" y1="237" x2="705" y2="257"/><line x1="750" y1="244" x2="745" y2="264"/>
+                    <line x1="790" y1="251" x2="785" y2="271"/><line x1="830" y1="258" x2="825" y2="278"/>
+                    <line x1="870" y1="264" x2="865" y2="284"/><line x1="910" y1="271" x2="905" y2="291"/>
+                    <line x1="950" y1="277" x2="945" y2="297"/><line x1="990" y1="283" x2="985" y2="303"/>
+                    <line x1="1030" y1="290" x2="1025" y2="310"/><line x1="1070" y1="296" x2="1065" y2="316"/>
+                    <line x1="1110" y1="302" x2="1105" y2="322"/><line x1="1150" y1="308" x2="1145" y2="328"/>
+                </g>
+
+                <!-- DERAILMENT ZONE pulsing -->
+                <circle cx="720" cy="245" r="8" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.6">
+                    <animate attributeName="r" values="8;14;8" dur="2s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2s" repeatCount="indefinite"/>
+                </circle>
+
+                <!-- 87m dragging path -->
+                <path d="M 720,258 Q 810,275 920,290" stroke="#ef4444" stroke-width="1.5" fill="none" stroke-dasharray="5,5" opacity="0.4"/>
+                <text x="820" y="288" fill="#ef4444" font-size="9" font-family="JetBrains Mono" transform="rotate(7, 820, 288)" opacity="0.6">87m drag</text>
+
+                <!-- Path step labels -->
+                <text x="35" y="45" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">① UP</text>
+                <text x="85" y="80" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">②</text>
+                <text x="148" y="93" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">③ DN</text>
+                <text x="250" y="130" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">④</text>
+
+                <!-- Compass -->
+                <g transform="translate(1150, 35)">
+                    <circle cx="0" cy="0" r="16" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+                    <text x="0" y="-6" fill="#94a3b8" font-size="9" font-family="JetBrains Mono" text-anchor="middle" font-weight="bold">N</text>
+                    <polygon points="0,-4 -2.5,3 2.5,3" fill="#94a3b8" opacity="0.4"/>
+                </g>
+            </svg>
+
+            <!-- Distance markers along the branch track -->
+            <div class="distance-markers" id="distance-markers"></div>
+
+            <!-- PT No. 78 label -->
+            <div class="pt78-label">
+                <span class="pt78-text">⚠️ PT. No. 78</span>
+            </div>
+
+            <!-- Derailment point label -->
+            <div class="derailment-marker" id="derailment-marker">
+                <div class="marker-diamond">⚠️</div>
+                <div class="marker-label">DERAILMENT<br>POINT</div>
+            </div>
+
+            <!-- Train Assembly: Loco on RIGHT (front), coaches trail LEFT -->
+            <!-- Train moves LEFT → RIGHT along the branch track -->
+            <div class="train-assembly" id="train-assembly">
+                <div class="train-unit coach" id="coach-4">
+                    <img src="bogie_img.jpg" alt="Coach 4" onerror="this.style.display='none'; this.parentElement.classList.add('fallback')">
+                    <div class="unit-label">COACH-4</div>
+                    <div class="unit-length">22.30m</div>
+                </div>
+                <div class="coupler" id="coupler-4"></div>
+                <div class="train-unit coach" id="coach-3">
+                    <img src="bogie_img.jpg" alt="Coach 3" onerror="this.style.display='none'; this.parentElement.classList.add('fallback')">
+                    <div class="unit-label">COACH-3</div>
+                    <div class="unit-length">22.30m</div>
+                </div>
+                <div class="coupler" id="coupler-3"></div>
+                <div class="train-unit coach" id="coach-2">
+                    <img src="bogie_img.jpg" alt="Coach 2" onerror="this.style.display='none'; this.parentElement.classList.add('fallback')">
+                    <div class="unit-label">COACH-2</div>
+                    <div class="unit-length">22.30m</div>
+                </div>
+                <div class="coupler" id="coupler-2"></div>
+                <div class="train-unit coach" id="coach-1">
+                    <img src="bogie_img.jpg" alt="Coach 1" onerror="this.style.display='none'; this.parentElement.classList.add('fallback')">
+                    <div class="unit-label">COACH-1</div>
+                    <div class="unit-length">22.30m</div>
+                </div>
+                <div class="coupler" id="coupler-1"></div>
+                <div class="train-unit loco" id="loco">
+                    <img src="locomotive_img.jpg" alt="Locomotive" onerror="this.style.display='none'; this.parentElement.classList.add('fallback')">
+                    <div class="unit-label">LOCO</div>
+                    <div class="unit-length">20.56m</div>
+                </div>
+            </div>
+
+            <!-- Event annotation popups -->
+            <div class="event-popup" id="event-popup">
+                <div class="popup-content" id="popup-content"></div>
+            </div>
+
+            <!-- Speed graph mini -->
+            <div class="speed-graph-mini" id="speed-graph-mini">
+                <canvas id="speed-canvas" width="320" height="100"></canvas>
+                <div class="graph-label">Speed Profile</div>
+            </div>
+        </div>
+
+        <!-- Animation Controls -->
+        <div class="animation-controls">
+            <button class="ctrl-btn" id="btn-play" title="Play">▶ Play</button>
+            <button class="ctrl-btn" id="btn-pause" title="Pause" style="display:none">⏸ Pause</button>
+            <button class="ctrl-btn" id="btn-reset" title="Reset">↻ Reset</button>
+            <div class="speed-control">
+                <label>Speed:</label>
+                <button class="speed-btn active" data-speed="1">1×</button>
+                <button class="speed-btn" data-speed="2">2×</button>
+                <button class="speed-btn" data-speed="5">5×</button>
+                <button class="speed-btn" data-speed="10">10×</button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+                <div class="progress-marker derail-mark" title="Derailment at 01:39:12" style="left: 82.87%"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 4: Speed-Time Graph -->
+    <div class="slide" id="slide-graph">
+        <div class="slide-header">
+            <span class="slide-number">04</span>
+            <h2>Speed-Time-Distance Graph</h2>
+        </div>
+        <div class="graph-container">
+            <canvas id="main-speed-canvas" width="1100" height="500"></canvas>
+        </div>
+        <div class="graph-legend">
+            <div class="legend-item"><span class="legend-color" style="background: #3b82f6"></span> Speed (kmph)</div>
+            <div class="legend-item"><span class="legend-color" style="background: #ef4444"></span> Derailment Point</div>
+            <div class="legend-item"><span class="legend-color" style="background: #22c55e"></span> Train Start</div>
+            <div class="legend-item"><span class="legend-color" style="background: #f59e0b"></span> Train Stop</div>
+        </div>
+    </div>
+
+    <!-- SLIDE 5: Key Timeline -->
+    <div class="slide" id="slide-timeline">
+        <div class="slide-header">
+            <span class="slide-number">05</span>
+            <h2>Event Timeline</h2>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline-line"></div>
+            <div class="timeline-event" style="--delay: 0.2s">
+                <div class="timeline-dot start"></div>
+                <div class="timeline-card">
+                    <div class="tc-time">01:36:13</div>
+                    <div class="tc-title">Train Starts from MURI</div>
+                    <div class="tc-detail">Speed: 0 → 1 kmph | Throttle: TE</div>
+                </div>
+            </div>
+            <div class="timeline-event" style="--delay: 0.4s">
+                <div class="timeline-dot te"></div>
+                <div class="timeline-card">
+                    <div class="tc-time">01:36:35</div>
+                    <div class="tc-title">Speed reaches 15 kmph</div>
+                    <div class="tc-detail">Distance covered: 46 m | Throttle: TE</div>
+                </div>
+            </div>
+            <div class="timeline-event" style="--delay: 0.6s">
+                <div class="timeline-dot coast"></div>
+                <div class="timeline-card">
+                    <div class="tc-time">01:36:52</div>
+                    <div class="tc-title">Coasting begins</div>
+                    <div class="tc-detail">Speed: 17 → 10 kmph over 107 sec | 376 m</div>
+                </div>
+            </div>
+            <div class="timeline-event" style="--delay: 0.8s">
+                <div class="timeline-dot te"></div>
+                <div class="timeline-card">
+                    <div class="tc-time">01:38:39</div>
+                    <div class="tc-title">TE applied again</div>
+                    <div class="tc-detail">Speed: 10 → 22 kmph | 109 m covered</div>
+                </div>
+            </div>
+            <div class="timeline-event" style="--delay: 1.0s">
+                <div class="timeline-dot critical"></div>
+                <div class="timeline-card highlight">
+                    <div class="tc-time">01:38:54</div>
+                    <div class="tc-title">⚠️ Loco crosses derailment point</div>
+                    <div class="tc-detail">Speed: 22 kmph | Loco passes safely</div>
+                </div>
+            </div>
+            <div class="timeline-event" style="--delay: 1.2s">
+                <div class="timeline-dot brake"></div>
+                <div class="timeline-card">
+                    <div class="tc-time">01:38:59</div>
+                    <div class="tc-title">Braking initiated</div>
+                    <div class="tc-detail">Speed: 22 → 15 kmph in 5 sec | 26 m</div>
+                </div>
+            </div>
+            <div class="timeline-event" style="--delay: 1.4s">
+                <div class="timeline-dot derail"></div>
+                <div class="timeline-card danger">
+                    <div class="tc-time">01:39:12</div>
+                    <div class="tc-title">🔴 DERAILMENT — Coach 3 derails</div>
+                    <div class="tc-detail">Speed: 12 kmph | Coach 3 rear trolley goes off track</div>
+                </div>
+            </div>
+            <div class="timeline-event" style="--delay: 1.6s">
+                <div class="timeline-dot stop"></div>
+                <div class="timeline-card">
+                    <div class="tc-time">01:39:49</div>
+                    <div class="tc-title">Train finally stops</div>
+                    <div class="tc-detail">Speed: 0 kmph | Total distance: 746 m | 9 m parting between Coach 3 & 4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 6: Summary -->
+    <div class="slide" id="slide-summary">
+        <div class="slide-header">
+            <span class="slide-number">06</span>
+            <h2>Summary & Conclusions</h2>
+        </div>
+        <div class="summary-content">
+            <div class="summary-section">
+                <h3>🚂 Train Composition</h3>
+                <div class="summary-visual">
+                    <div class="sv-unit loco-mini">LOCO<br><small>20.56m</small></div>
+                    <div class="sv-connector"></div>
+                    <div class="sv-unit coach-mini">C-1<br><small>22.30m</small></div>
+                    <div class="sv-connector"></div>
+                    <div class="sv-unit coach-mini">C-2<br><small>22.30m</small></div>
+                    <div class="sv-connector"></div>
+                    <div class="sv-unit coach-mini derailed">C-3<br><small>22.30m</small><br>⚠️ DERAILED</div>
+                    <div class="sv-connector broken"></div>
+                    <div class="sv-unit coach-mini">C-4<br><small>22.30m</small></div>
+                    <div class="sv-dots">... C-5 to C-20</div>
+                </div>
+            </div>
+            <div class="summary-stats">
+                <div class="stat-row">
+                    <div class="stat-block">
+                        <div class="stat-num">216</div>
+                        <div class="stat-label">Total Seconds</div>
+                    </div>
+                    <div class="stat-block">
+                        <div class="stat-num">746</div>
+                        <div class="stat-label">Total Meters</div>
+                    </div>
+                    <div class="stat-block">
+                        <div class="stat-num highlight-red">22</div>
+                        <div class="stat-label">Max Speed (kmph)</div>
+                    </div>
+                    <div class="stat-block">
+                        <div class="stat-num highlight-red">12</div>
+                        <div class="stat-label">Speed at Derailment</div>
+                    </div>
+                </div>
+            </div>
+            <div class="summary-findings">
+                <h3>Key Findings</h3>
+                <div class="finding-item">
+                    <span class="finding-num">1</span>
+                    <p>Train started at <strong>01:36:13</strong> from MURI yard with Throttle in TE position.</p>
+                </div>
+                <div class="finding-item">
+                    <span class="finding-num">2</span>
+                    <p>At <strong>01:38:54</strong>, locomotive crossed the derailment point safely at <strong>22 kmph</strong>.</p>
+                </div>
+                <div class="finding-item">
+                    <span class="finding-num">3</span>
+                    <p>At <strong>01:39:12</strong>, Coach No. 3 rear trolley derailed while crossing the same point at <strong>12 kmph</strong>.</p>
+                </div>
+                <div class="finding-item">
+                    <span class="finding-num">4</span>
+                    <p>Coach No. 3 rear trolley was dragged for <strong>87 meters</strong> after derailment before train stopped.</p>
+                </div>
+                <div class="finding-item">
+                    <span class="finding-num">5</span>
+                    <p>A <strong>9 meter parting</strong> occurred between Coach 3 and Coach 4 after the incident.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-bar">
+        <button class="nav-btn" id="btn-prev" disabled>← Prev</button>
+        <div class="nav-dots" id="nav-dots"></div>
+        <button class="nav-btn" id="btn-next">Next →</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
