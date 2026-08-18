@@ -12,7 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@500;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css?v=4">
+    <link rel="stylesheet" href="styles.css?v=5">
 </head>
 
 <body>
@@ -188,31 +188,32 @@
             <h2>Live Derailment Animation</h2>
         </div>
 
+        <!-- HUD Overlay -->
+        <div class="hud-panel">
+            <div class="hud-item">
+                <div class="hud-label">TIME</div>
+                <div class="hud-value" id="hud-time">01:36:13</div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-label">SPEED</div>
+                <div class="hud-value" id="hud-speed">0 <small>kmph</small></div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-label">DISTANCE</div>
+                <div class="hud-value" id="hud-distance">0 <small>m</small></div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-label">THROTTLE</div>
+                <div class="hud-value" id="hud-throttle"><span class="throttle-badge te">TE</span></div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-label">STATUS</div>
+                <div class="hud-value" id="hud-status">STARTING</div>
+            </div>
+        </div>
+
         <!-- Yard Animation Canvas -->
         <div class="yard-container" id="yard-container">
-            <!-- HUD Overlay -->
-            <div class="hud-panel">
-                <div class="hud-item">
-                    <div class="hud-label">TIME</div>
-                    <div class="hud-value" id="hud-time">01:36:13</div>
-                </div>
-                <div class="hud-item">
-                    <div class="hud-label">SPEED</div>
-                    <div class="hud-value" id="hud-speed">0 <small>kmph</small></div>
-                </div>
-                <div class="hud-item">
-                    <div class="hud-label">DISTANCE</div>
-                    <div class="hud-value" id="hud-distance">0 <small>m</small></div>
-                </div>
-                <div class="hud-item">
-                    <div class="hud-label">THROTTLE</div>
-                    <div class="hud-value" id="hud-throttle"><span class="throttle-badge te">TE</span></div>
-                </div>
-                <div class="hud-item">
-                    <div class="hud-label">STATUS</div>
-                    <div class="hud-value" id="hud-status">STARTING</div>
-                </div>
-            </div>
             <!-- Sky gradient background -->
             <div class="yard-sky"></div>
 
@@ -528,7 +529,7 @@
     </div>
 
     <!-- Application Script -->
-    <script src="script.js?v=4"></script>
+    <script src="script.js?v=5"></script>
 </body>
 
 </html>

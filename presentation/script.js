@@ -162,7 +162,7 @@ function getTrackPixelPos(d) {
         y = 62;
     } else if (d <= 517) {
         let t = (d - 478) / 39;
-        let smoothT = t * t * (3 - 2 * t); 
+        let smoothT = t * t * (3 - 2 * t);
         x = 40 + 478 * 1.5 + t * 39 * 1.5;
         y = 62 + smoothT * 40;
     } else if (d <= 554) {
@@ -195,28 +195,30 @@ function getTrackPosition(distance) {
 function drawTrack() {
     const g = document.getElementById('dynamic-tracks');
     if (!g) return;
-    g.innerHTML = '';
-    
+    while (g.firstChild) {
+        g.removeChild(g.firstChild);
+    }
+
     let centerPath = 'M ';
     let rail1 = 'M ';
     let rail2 = 'M ';
-    
+
     for (let d = 0; d <= 746; d += 2) {
         const p = getTrackPixelPos(d);
         centerPath += `${p.x.toFixed(1)},${p.y.toFixed(1)} `;
-        
+
         const pNext = getTrackPixelPos(d + 1);
         const dx = pNext.x - p.x;
         const dy = pNext.y - p.y;
         const len = Math.hypot(dx, dy) || 1;
         const nx = -dy / len;
         const ny = dx / len;
-        
+
         const r1x = p.x + nx * 7.5;
         const r1y = p.y + ny * 7.5;
         const r2x = p.x - nx * 7.5;
         const r2y = p.y - ny * 7.5;
-        
+
         if (d === 0) {
             rail1 += `${r1x.toFixed(1)},${r1y.toFixed(1)} `;
             rail2 += `${r2x.toFixed(1)},${r2y.toFixed(1)} `;
@@ -225,32 +227,32 @@ function drawTrack() {
             rail2 += `L ${r2x.toFixed(1)},${r2y.toFixed(1)} `;
         }
     }
-    
+
     const centerNode = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     centerNode.setAttribute('d', centerPath);
     centerNode.setAttribute('stroke', '#06b6d4');
     centerNode.setAttribute('stroke-width', '4');
     centerNode.setAttribute('fill', 'none');
     centerNode.setAttribute('opacity', '0.2');
-    
+
     const r1Node = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     r1Node.setAttribute('d', rail1);
     r1Node.setAttribute('stroke', '#4a5568');
     r1Node.setAttribute('stroke-width', '2.5');
     r1Node.setAttribute('fill', 'none');
     r1Node.setAttribute('opacity', '0.4');
-    
+
     const r2Node = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     r2Node.setAttribute('d', rail2);
     r2Node.setAttribute('stroke', '#4a5568');
     r2Node.setAttribute('stroke-width', '2.5');
     r2Node.setAttribute('fill', 'none');
     r2Node.setAttribute('opacity', '0.4');
-    
+
     g.appendChild(r1Node);
     g.appendChild(r2Node);
     g.appendChild(centerNode);
-    
+
     // Update drag path (554m to 632m)
     const dragPathNode = document.getElementById('drag-path');
     if (dragPathNode) {
@@ -262,7 +264,7 @@ function drawTrack() {
         }
         dragPathNode.setAttribute('d', dragStr);
     }
-    
+
     const dragTextNode = document.getElementById('drag-text');
     if (dragTextNode) {
         const pMid = getTrackPixelPos(593); // Midpoint of 554 and 632
@@ -272,14 +274,14 @@ function drawTrack() {
         dragTextNode.setAttribute('y', pMid.y + 35);
         dragTextNode.setAttribute('transform', `rotate(${angle}, ${pMid.x}, ${pMid.y + 35})`);
     }
-    
+
     // Dynamically position markers to match exactly 554m (PT 78 / Derailment point)
     const pt78Pos = getTrackPosition(554);
     const pt78Label = document.querySelector('.pt78-label');
     if (pt78Label) {
         pt78Label.style.left = pt78Pos.x + '%';
         pt78Label.style.top = pt78Pos.y + '%';
-        pt78Label.style.transform = 'translate(-30px, -30px)'; 
+        pt78Label.style.transform = 'translate(-30px, -30px)';
     }
     const derailMarker = document.querySelector('.derailment-marker');
     if (derailMarker) {
@@ -296,7 +298,7 @@ function createDistanceMarkers() {
         marker.className = 'dist-marker';
         const pos = getTrackPosition(m);
         marker.style.left = pos.x + '%';
-        marker.style.top = pos.y + '%';
+        marker.style.top = pos.y + 10 + '%';
         marker.innerHTML = `<span>${m}m</span>`;
         container.appendChild(marker);
     });
@@ -392,7 +394,7 @@ function resetAnimation() {
     coupler4.style.width = '';
     eventPopup.classList.remove('visible', 'danger');
     yardContainer.classList.remove('flash');
-    
+
     const locoFlash = document.getElementById('loco-speed-flash');
     if (locoFlash) locoFlash.classList.remove('visible');
     const coachFlash = document.getElementById('coach-speed-flash');
@@ -451,7 +453,7 @@ function processFrame(idx) {
 
     // Coach 3 reaches PT 78 (offset -78, so Loco is at 554 + 78 = 632m)
     if (totalDistanceCovered >= 632 && !derailed) {
-        triggerDerailment(data.s);
+        triggerDerailment(12);
     }
 }
 
@@ -499,33 +501,33 @@ function updateTrainPosition(idx) {
         { id: 'coach-3', offset: -78, w: 34 },
         { id: 'coach-4', offset: -104, w: 34 }
     ];
-    
+
     offsets.forEach(unit => {
         let d = totalDistanceCovered + unit.offset;
-        
+
         // Handle coupler parting for coach-4 when derailed
         if (derailed && unit.id === 'coach-4') {
             d -= 9; // 9m apart
         }
-        
+
         if (d < 0) d = 0;
-        
+
         const pos = getTrackPosition(d);
         const angle = getAngle(d);
-        
+
         const el = document.getElementById(unit.id);
         if (el) {
             el.style.left = `calc(${pos.x}% - ${unit.w / 2}px)`;
             el.style.top = `calc(${pos.y}% - 10px)`; // height is 20px
-            
+
             if (el.classList.contains('derailed-final')) {
-                 el.style.transform = `rotate(${angle + 10}deg) translateY(8px)`;
+                el.style.transform = `rotate(${angle + 10}deg) translateY(8px)`;
             } else if (!el.classList.contains('derailed')) {
-                 el.style.transform = `rotate(${angle}deg)`;
+                el.style.transform = `rotate(${angle}deg)`;
             }
         }
     });
-    
+
     // Hide original couplers as we are doing independent positioning
     document.querySelectorAll('.coupler').forEach(c => c.style.display = 'none');
 }
@@ -558,7 +560,7 @@ function triggerDerailment(speed) {
 
     // Coach 3 derails
     coach3.classList.add('derailed');
-    
+
     const coachFlash = document.getElementById('coach-speed-flash');
     if (coachFlash) {
         coachFlash.textContent = (speed !== undefined ? speed : '12') + ' kmph';
