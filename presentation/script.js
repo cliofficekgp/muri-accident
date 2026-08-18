@@ -269,8 +269,8 @@ function drawTrack() {
         const pNext = getTrackPixelPos(594);
         const angle = Math.atan2(pNext.y - pMid.y, pNext.x - pMid.x) * 180 / Math.PI;
         dragTextNode.setAttribute('x', pMid.x);
-        dragTextNode.setAttribute('y', pMid.y + 15);
-        dragTextNode.setAttribute('transform', `rotate(${angle}, ${pMid.x}, ${pMid.y + 15})`);
+        dragTextNode.setAttribute('y', pMid.y + 35);
+        dragTextNode.setAttribute('transform', `rotate(${angle}, ${pMid.x}, ${pMid.y + 35})`);
     }
     
     // Dynamically position markers to match exactly 554m (PT 78 / Derailment point)
@@ -311,6 +311,7 @@ let lastTime = 0;
 let accumulator = 0;
 let totalDistanceCovered = 0;
 let derailed = false;
+let locoFlashed = false;
 let stopped = false;
 
 const hudTime = document.getElementById('hud-time');
@@ -376,6 +377,7 @@ function resetAnimation() {
     animIndex = 0;
     totalDistanceCovered = 0;
     derailed = false;
+    locoFlashed = false;
     stopped = false;
     accumulator = 0;
 
@@ -390,6 +392,11 @@ function resetAnimation() {
     coupler4.style.width = '';
     eventPopup.classList.remove('visible', 'danger');
     yardContainer.classList.remove('flash');
+    
+    const locoFlash = document.getElementById('loco-speed-flash');
+    if (locoFlash) locoFlash.classList.remove('visible');
+    const coachFlash = document.getElementById('coach-speed-flash');
+    if (coachFlash) coachFlash.classList.remove('visible');
 
     updateHUD(0);
     progressFill.style.width = '0%';
@@ -431,9 +438,20 @@ function processFrame(idx) {
     updateProgress(idx);
     drawMiniGraph(idx);
 
-    // Derailment at index 179
-    if (idx >= 179 && !derailed) {
-        triggerDerailment();
+    // Loco crosses PT 78 (554m)
+    if (totalDistanceCovered >= 554 && !locoFlashed) {
+        locoFlashed = true;
+        const locoFlash = document.getElementById('loco-speed-flash');
+        if (locoFlash) {
+            locoFlash.textContent = data.s + ' kmph';
+            locoFlash.classList.add('visible');
+            setTimeout(() => locoFlash.classList.remove('visible'), 3000);
+        }
+    }
+
+    // Coach 3 reaches PT 78 (offset -78, so Loco is at 554 + 78 = 632m)
+    if (totalDistanceCovered >= 632 && !derailed) {
+        triggerDerailment(data.s);
     }
 }
 
@@ -476,10 +494,10 @@ function getAngle(d) {
 function updateTrainPosition(idx) {
     const offsets = [
         { id: 'loco', offset: 0, w: 32 },
-        { id: 'coach-1', offset: -36, w: 34 },
-        { id: 'coach-2', offset: -72, w: 34 },
-        { id: 'coach-3', offset: -108, w: 34 },
-        { id: 'coach-4', offset: -144, w: 34 }
+        { id: 'coach-1', offset: -26, w: 34 },
+        { id: 'coach-2', offset: -52, w: 34 },
+        { id: 'coach-3', offset: -78, w: 34 },
+        { id: 'coach-4', offset: -104, w: 34 }
     ];
     
     offsets.forEach(unit => {
@@ -531,7 +549,7 @@ function showPopup(text, type) {
     }, type === 'danger' ? 5000 : 3000);
 }
 
-function triggerDerailment() {
+function triggerDerailment(speed) {
     derailed = true;
 
     // Flash the yard
@@ -540,6 +558,12 @@ function triggerDerailment() {
 
     // Coach 3 derails
     coach3.classList.add('derailed');
+    
+    const coachFlash = document.getElementById('coach-speed-flash');
+    if (coachFlash) {
+        coachFlash.textContent = (speed !== undefined ? speed : '12') + ' kmph';
+        coachFlash.classList.add('visible');
+    }
 
     // After some frames, show final state
     setTimeout(() => {

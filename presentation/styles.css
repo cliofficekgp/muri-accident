@@ -609,6 +609,60 @@ kbd {
     text-shadow: 0 0 10px rgba(239, 68, 68, 0.3);
 }
 
+.speed-flash {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: #0f172a;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 11px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: opacity 0.2s, transform 0.2s;
+    z-index: 20;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.speed-flash::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px 5px 0;
+    border-style: solid;
+    border-color: #0f172a transparent transparent transparent;
+}
+
+.speed-flash.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    animation: pulseFlash 1.5s infinite;
+}
+
+.speed-flash.danger {
+    background: #dc2626;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: 2px solid #fff;
+}
+
+.speed-flash.danger::after {
+    border-color: #dc2626 transparent transparent transparent;
+}
+
+@keyframes pulseFlash {
+    0% { transform: translateX(-50%) translateY(0) scale(1); }
+    50% { transform: translateX(-50%) translateY(0) scale(1.1); }
+    100% { transform: translateX(-50%) translateY(0) scale(1); }
+}
+
 .train-assembly {
     position: absolute;
     top: 0;
@@ -625,15 +679,16 @@ kbd {
     align-items: center;
     justify-content: center;
     border-radius: 2px;
-    overflow: hidden;
     transform-origin: center center;
+    z-index: 10;
 }
 
 .train-unit img {
     height: 100%;
-    width: auto;
-    object-fit: contain;
-    pointer-events: none;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    transition: opacity 0.3s ease;
 }
 
 .train-unit.fallback {
@@ -666,11 +721,11 @@ kbd {
     left: 50%;
     transform: translateX(-50%);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 5px;
+    font-size: 7px;
     font-weight: 700;
     color: white;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 0px 3px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1px 4px;
     border-radius: 2px;
     white-space: nowrap;
     z-index: 2;

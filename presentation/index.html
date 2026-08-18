@@ -246,14 +246,18 @@
                 <!-- 87m dragging path -->
                 <path id="drag-path" d="M 720,258 Q 810,275 920,290" stroke="#ef4444" stroke-width="1.5" fill="none"
                     stroke-dasharray="5,5" opacity="0.4" />
-                <text id="drag-text" x="820" y="300" fill="#ef4444" font-size="9" font-family="JetBrains Mono"
-                    transform="rotate(7, 820, 288)" opacity="1">78m drag</text>
+                <text id="drag-text" x="820" y="300" fill="#dc2626" font-weight="bold" font-size="12"
+                    font-family="JetBrains Mono" transform="rotate(7, 820, 288)" opacity="1">78m drag</text>
 
                 <!-- Path step labels -->
-                <text x="35" y="45" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">① UP</text>
-                <text x="85" y="80" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">②</text>
-                <text x="148" y="93" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">③ DN</text>
-                <text x="250" y="130" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">④</text>
+                <text x="35" y="45" fill="#0369a1" font-size="11" font-weight="700" font-family="JetBrains Mono"
+                    opacity="0.8">① UP</text>
+                <text x="70" y="105" fill="#0369a1" font-size="11" font-weight="700" font-family="JetBrains Mono"
+                    opacity="0.8">②</text>
+                <text x="140" y="130" fill="#0369a1" font-size="11" font-weight="700" font-family="JetBrains Mono"
+                    opacity="0.8">③ DN</text>
+                <text x="225" y="180" fill="#0369a1" font-size="11" font-weight="700" font-family="JetBrains Mono"
+                    opacity="0.8">④</text>
 
                 <!-- Compass -->
                 <g transform="translate(1150, 35)">
@@ -292,6 +296,7 @@
                     <img src="bogie_img.jpg" alt="Coach 3"
                         onerror="this.style.display='none'; this.parentElement.classList.add('fallback')">
                     <div class="unit-label">COACH-3</div>
+                    <div class="speed-flash danger" id="coach-speed-flash">12 kmph</div>
                     <div class="unit-length">22.30m</div>
                 </div>
                 <div class="coupler" id="coupler-3"></div>
@@ -313,6 +318,7 @@
                     <img src="locomotive_img.jpg" alt="Locomotive"
                         onerror="this.style.display='none'; this.parentElement.classList.add('fallback')">
                     <div class="unit-label">LOCO</div>
+                    <div class="speed-flash" id="loco-speed-flash">21 kmph</div>
                     <div class="unit-length">20.56m</div>
                 </div>
             </div>
