@@ -276,10 +276,10 @@ function resetAnimation() {
     stopped = false;
     accumulator = 0;
 
-    // Reset train position — starts from left (UP line near MURI station)
-    const startPos = getTrackPosition(0);
-    trainAssembly.style.left = startPos.x + '%';
-    trainAssembly.style.top = startPos.y + '%';
+    // Reset visuals
+    trainAssembly.style.left = '0';
+    trainAssembly.style.top = '0';
+    updateTrainPosition(0);
 
     // Reset visuals
     coach3.classList.remove('derailed', 'derailed-final');
@@ -360,11 +360,53 @@ function updateHUD(idx) {
     }
 }
 
+function getAngle(d) {
+    const p1 = getTrackPosition(Math.max(0, d - 1));
+    const p2 = getTrackPosition(Math.min(746, d + 1));
+    const w = yardContainer.clientWidth || 1000;
+    const h = yardContainer.clientHeight || 350;
+    const dx = (p2.x - p1.x) * w / 100;
+    const dy = (p2.y - p1.y) * h / 100;
+    return Math.atan2(dy, dx) * 180 / Math.PI;
+}
+
 function updateTrainPosition(idx) {
-    // Train moves LEFT → RIGHT along the curved track path
-    const pos = getTrackPosition(totalDistanceCovered);
-    trainAssembly.style.left = pos.x + '%';
-    trainAssembly.style.top = pos.y + '%';
+    const offsets = [
+        { id: 'loco', offset: 0, w: 32 },
+        { id: 'coach-1', offset: -22, w: 34 },
+        { id: 'coach-2', offset: -45, w: 34 },
+        { id: 'coach-3', offset: -68, w: 34 },
+        { id: 'coach-4', offset: -91, w: 34 }
+    ];
+    
+    offsets.forEach(unit => {
+        let d = totalDistanceCovered + unit.offset;
+        
+        // Handle coupler parting for coach-4 when derailed
+        if (derailed && unit.id === 'coach-4') {
+            d -= 9; // 9m apart
+        }
+        
+        if (d < 0) d = 0;
+        
+        const pos = getTrackPosition(d);
+        const angle = getAngle(d);
+        
+        const el = document.getElementById(unit.id);
+        if (el) {
+            el.style.left = `calc(${pos.x}% - ${unit.w / 2}px)`;
+            el.style.top = `calc(${pos.y}% - 10px)`; // height is 20px
+            
+            if (el.classList.contains('derailed-final')) {
+                 el.style.transform = `rotate(${angle + 10}deg) translateY(8px)`;
+            } else if (!el.classList.contains('derailed')) {
+                 el.style.transform = `rotate(${angle}deg)`;
+            }
+        }
+    });
+    
+    // Hide original couplers as we are doing independent positioning
+    document.querySelectorAll('.coupler').forEach(c => c.style.display = 'none');
 }
 
 function checkEvents(idx) {
@@ -420,11 +462,11 @@ function drawMiniGraph(currentIdx = 0) {
     ctx.clearRect(0, 0, w, h);
 
     // Background
-    ctx.fillStyle = 'rgba(0,0,0,0.3)';
+    ctx.fillStyle = 'rgba(255,255,255,0.7)';
     ctx.fillRect(0, 0, w, h);
 
     // Grid
-    ctx.strokeStyle = 'rgba(255,255,255,0.05)';
+    ctx.strokeStyle = 'rgba(0,0,0,0.05)';
     ctx.lineWidth = 0.5;
     for (let y = 0; y <= h; y += 20) {
         ctx.beginPath();
@@ -501,11 +543,11 @@ function drawMainGraph() {
     ctx.clearRect(0, 0, w, h);
 
     // Background
-    ctx.fillStyle = '#1a2235';
+    ctx.fillStyle = '#ffffff';
     ctx.fillRect(0, 0, w, h);
 
     // Grid
-    ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+    ctx.strokeStyle = 'rgba(0,0,0,0.06)';
     ctx.lineWidth = 0.5;
     // Horizontal grid (speed)
     for (let s = 0; s <= 25; s += 5) {
@@ -624,7 +666,7 @@ function drawMainGraph() {
     ctx.setLineDash([]);
 
     // Title
-    ctx.fillStyle = '#f1f5f9';
+    ctx.fillStyle = '#0f172a';
     ctx.font = 'bold 14px Inter, sans-serif';
     ctx.textAlign = 'center';
     ctx.fillText('Speed Profile — Train 08895 at MURI Yard (01:36:13 to 01:39:49)', w / 2, 20);
@@ -661,7 +703,7 @@ function drawMainGraph() {
         ctx.fillRect(x1, padding.top, x2 - x1, graphH);
 
         // Phase label at bottom
-        ctx.fillStyle = 'rgba(255,255,255,0.3)';
+        ctx.fillStyle = 'rgba(0,0,0,0.5)';
         ctx.font = '9px JetBrains Mono, monospace';
         ctx.textAlign = 'center';
         ctx.fillText(p.label, (x1 + x2) / 2, h - padding.bottom + 35);
