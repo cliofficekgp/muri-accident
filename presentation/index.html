@@ -235,95 +235,7 @@
                     </pattern>
                 </defs>
 
-                <!-- MAIN LINE 1 (UP Line) -->
-                <line x1="0" y1="55" x2="1200" y2="55" stroke="#4a5568" stroke-width="2.5" opacity="0.4" />
-                <line x1="0" y1="70" x2="1200" y2="70" stroke="#4a5568" stroke-width="2.5" opacity="0.4" />
-                <g opacity="0.2" stroke="#5a4a3a" stroke-width="3">
-                    <line x1="15" y1="50" x2="15" y2="75" />
-                    <line x1="35" y1="50" x2="35" y2="75" />
-                    <line x1="55" y1="50" x2="55" y2="75" />
-                    <line x1="75" y1="50" x2="75" y2="75" />
-                    <line x1="95" y1="50" x2="95" y2="75" />
-                    <line x1="115" y1="50" x2="115" y2="75" />
-                    <line x1="135" y1="50" x2="135" y2="75" />
-                    <line x1="155" y1="50" x2="155" y2="75" />
-                    <line x1="175" y1="50" x2="175" y2="75" />
-                    <line x1="195" y1="50" x2="195" y2="75" />
-                    <line x1="215" y1="50" x2="215" y2="75" />
-                    <line x1="235" y1="50" x2="235" y2="75" />
-                </g>
-
-                <!-- MAIN LINE 2 (DN Line) -->
-                <line x1="0" y1="95" x2="1200" y2="95" stroke="#4a5568" stroke-width="2.5" opacity="0.4" />
-                <line x1="0" y1="110" x2="1200" y2="110" stroke="#4a5568" stroke-width="2.5" opacity="0.4" />
-                <g opacity="0.2" stroke="#5a4a3a" stroke-width="3">
-                    <line x1="15" y1="90" x2="15" y2="115" />
-                    <line x1="35" y1="90" x2="35" y2="115" />
-                    <line x1="55" y1="90" x2="55" y2="115" />
-                    <line x1="75" y1="90" x2="75" y2="115" />
-                    <line x1="95" y1="90" x2="95" y2="115" />
-                    <line x1="115" y1="90" x2="115" y2="115" />
-                    <line x1="135" y1="90" x2="135" y2="115" />
-                    <line x1="155" y1="90" x2="155" y2="115" />
-                    <line x1="175" y1="90" x2="175" y2="115" />
-                    <line x1="195" y1="90" x2="195" y2="115" />
-                    <line x1="215" y1="90" x2="215" y2="115" />
-                    <line x1="235" y1="90" x2="235" y2="115" />
-                </g>
-
-                <!-- Main line labels -->
-                <text x="1150" y="48" fill="#64748b" font-size="10" font-family="JetBrains Mono" text-anchor="end"
-                    opacity="0.7">UP Line</text>
-                <text x="1150" y="88" fill="#64748b" font-size="10" font-family="JetBrains Mono" text-anchor="end"
-                    opacity="0.7">DN Line</text>
-
-                <!-- TRAIN PATH HIGHLIGHT (cyan glow) -->
-                <line x1="10" y1="62" x2="70" y2="62" stroke="#06b6d4" stroke-width="4" opacity="0.2" />
-                <path d="M 70,62 Q 95,78 120,102" stroke="#06b6d4" stroke-width="4" fill="none" opacity="0.2" />
-                <line x1="120" y1="102" x2="200" y2="102" stroke="#06b6d4" stroke-width="4" opacity="0.2" />
-                <path d="M 200,102 Q 240,125 280,148" stroke="#06b6d4" stroke-width="4" fill="none" opacity="0.2" />
-
-                <!-- CROSSOVER 1: UP → DN (near MURI station) -->
-                <path d="M 60,70 Q 90,82 120,95" stroke="#718096" stroke-width="2.5" fill="none" opacity="0.6" />
-                <path d="M 60,55 Q 90,68 120,80" stroke="#718096" stroke-width="2.5" fill="none" opacity="0.6" />
-                <rect x="45" y="48" width="90" height="72" fill="url(#hatch)" opacity="0.5" rx="3" />
-
-                <!-- CROSSOVER 2: DN → Branch (PT. No. 78) -->
-                <path d="M 190,110 Q 230,135 280,155" stroke="#718096" stroke-width="2.5" fill="none" opacity="0.6" />
-                <path d="M 190,95 Q 230,120 280,140" stroke="#718096" stroke-width="2.5" fill="none" opacity="0.6" />
-                <rect x="170" y="85" width="130" height="85" fill="url(#hatch)" opacity="0.6" rx="3" />
-                <circle cx="235" cy="103" r="5" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.8" />
-                <circle cx="235" cy="103" r="2.5" fill="#ef4444" opacity="0.6" />
-
-                <!-- BRANCH TRACK (curved SE) -->
-                <path d="M 280,140 Q 400,185 550,220 Q 700,250 900,280 L 1200,315" stroke="#718096" stroke-width="3"
-                    fill="none" opacity="0.8" />
-                <path d="M 280,155 Q 400,200 550,235 Q 700,265 900,295 L 1200,330" stroke="#718096" stroke-width="3"
-                    fill="none" opacity="0.8" />
-                <g opacity="0.3" stroke="#5a4a3a" stroke-width="3">
-                    <line x1="310" y1="148" x2="305" y2="168" />
-                    <line x1="350" y1="160" x2="345" y2="180" />
-                    <line x1="390" y1="170" x2="385" y2="190" />
-                    <line x1="430" y1="180" x2="425" y2="200" />
-                    <line x1="470" y1="190" x2="465" y2="210" />
-                    <line x1="510" y1="199" x2="505" y2="219" />
-                    <line x1="550" y1="207" x2="545" y2="227" />
-                    <line x1="590" y1="215" x2="585" y2="235" />
-                    <line x1="630" y1="222" x2="625" y2="242" />
-                    <line x1="670" y1="230" x2="665" y2="250" />
-                    <line x1="710" y1="237" x2="705" y2="257" />
-                    <line x1="750" y1="244" x2="745" y2="264" />
-                    <line x1="790" y1="251" x2="785" y2="271" />
-                    <line x1="830" y1="258" x2="825" y2="278" />
-                    <line x1="870" y1="264" x2="865" y2="284" />
-                    <line x1="910" y1="271" x2="905" y2="291" />
-                    <line x1="950" y1="277" x2="945" y2="297" />
-                    <line x1="990" y1="283" x2="985" y2="303" />
-                    <line x1="1030" y1="290" x2="1025" y2="310" />
-                    <line x1="1070" y1="296" x2="1065" y2="316" />
-                    <line x1="1110" y1="302" x2="1105" y2="322" />
-                    <line x1="1150" y1="308" x2="1145" y2="328" />
-                </g>
+                <g id="dynamic-tracks"></g>
 
                 <!-- DERAILMENT ZONE pulsing -->
                 <circle cx="720" cy="245" r="8" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.6">
@@ -332,10 +244,10 @@
                 </circle>
 
                 <!-- 87m dragging path -->
-                <path d="M 720,258 Q 810,275 920,290" stroke="#ef4444" stroke-width="1.5" fill="none"
+                <path id="drag-path" d="M 720,258 Q 810,275 920,290" stroke="#ef4444" stroke-width="1.5" fill="none"
                     stroke-dasharray="5,5" opacity="0.4" />
-                <text x="820" y="288" fill="#ef4444" font-size="9" font-family="JetBrains Mono"
-                    transform="rotate(7, 820, 288)" opacity="0.6">87m drag</text>
+                <text id="drag-text" x="820" y="300" fill="#ef4444" font-size="9" font-family="JetBrains Mono"
+                    transform="rotate(7, 820, 288)" opacity="1">78m drag</text>
 
                 <!-- Path step labels -->
                 <text x="35" y="45" fill="#06b6d4" font-size="9" font-family="JetBrains Mono" opacity="0.5">① UP</text>
@@ -585,7 +497,8 @@
                 <div class="finding-item">
                     <span class="finding-num">3</span>
                     <p>At <strong>01:39:12</strong>, Coach No. 3 rear trolley derailed while crossing the same point at
-                        <strong>12 kmph</strong>.</p>
+                        <strong>12 kmph</strong>.
+                    </p>
                 </div>
                 <div class="finding-item">
                     <span class="finding-num">4</span>

@@ -1,0 +1,1082 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>RTIS 8495 - GPS Points Only</name><Style id="pointStyle"><IconStyle><scale>0.55</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style><Placemark><name>Point 1</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 0.0 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379688
+Longitude: 85.866557</description><Point><coordinates>85.866557,23.379688,0</coordinates></Point></Placemark><Placemark><name>Point 2</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 3.26 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.37972
+Longitude: 85.866566</description><Point><coordinates>85.866566,23.37972,0</coordinates></Point></Placemark><Placemark><name>Point 3</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 4.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.37973
+Longitude: 85.866565</description><Point><coordinates>85.866565,23.37973,0</coordinates></Point></Placemark><Placemark><name>Point 4</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 5.04 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379742
+Longitude: 85.866564</description><Point><coordinates>85.866564,23.379742,0</coordinates></Point></Placemark><Placemark><name>Point 5</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 5.93 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379756
+Longitude: 85.866562</description><Point><coordinates>85.866562,23.379756,0</coordinates></Point></Placemark><Placemark><name>Point 6</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 6.67 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379772
+Longitude: 85.866561</description><Point><coordinates>85.866561,23.379772,0</coordinates></Point></Placemark><Placemark><name>Point 7</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 7.19 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.37979
+Longitude: 85.866559</description><Point><coordinates>85.866559,23.37979,0</coordinates></Point></Placemark><Placemark><name>Point 8</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 8.11 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379809
+Longitude: 85.866557</description><Point><coordinates>85.866557,23.379809,0</coordinates></Point></Placemark><Placemark><name>Point 9</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 8.76 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.37983
+Longitude: 85.866555</description><Point><coordinates>85.866555,23.37983,0</coordinates></Point></Placemark><Placemark><name>Point 10</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 9.5 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379853
+Longitude: 85.866553</description><Point><coordinates>85.866553,23.379853,0</coordinates></Point></Placemark><Placemark><name>Point 11</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 9.91 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379878
+Longitude: 85.866551</description><Point><coordinates>85.866551,23.379878,0</coordinates></Point></Placemark><Placemark><name>Point 12</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 10.65 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379904
+Longitude: 85.866549</description><Point><coordinates>85.866549,23.379904,0</coordinates></Point></Placemark><Placemark><name>Point 13</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 11.63 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379932
+Longitude: 85.866547</description><Point><coordinates>85.866547,23.379932,0</coordinates></Point></Placemark><Placemark><name>Point 14</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 12.33 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379962
+Longitude: 85.866543</description><Point><coordinates>85.866543,23.379962,0</coordinates></Point></Placemark><Placemark><name>Point 15</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 13.22 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.379994
+Longitude: 85.86654</description><Point><coordinates>85.86654,23.379994,0</coordinates></Point></Placemark><Placemark><name>Point 16</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 13.89 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380029
+Longitude: 85.866537</description><Point><coordinates>85.866537,23.380029,0</coordinates></Point></Placemark><Placemark><name>Point 17</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 14.63 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380065
+Longitude: 85.866533</description><Point><coordinates>85.866533,23.380065,0</coordinates></Point></Placemark><Placemark><name>Point 18</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.09 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380102
+Longitude: 85.866529</description><Point><coordinates>85.866529,23.380102,0</coordinates></Point></Placemark><Placemark><name>Point 19</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.82 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38014
+Longitude: 85.866526</description><Point><coordinates>85.866526,23.38014,0</coordinates></Point></Placemark><Placemark><name>Point 20</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.22 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380181
+Longitude: 85.866522</description><Point><coordinates>85.866522,23.380181,0</coordinates></Point></Placemark><Placemark><name>Point 21</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.48 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380223
+Longitude: 85.866518</description><Point><coordinates>85.866518,23.380223,0</coordinates></Point></Placemark><Placemark><name>Point 22</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.87 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380265
+Longitude: 85.866514</description><Point><coordinates>85.866514,23.380265,0</coordinates></Point></Placemark><Placemark><name>Point 23</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.83 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380307
+Longitude: 85.866509</description><Point><coordinates>85.866509,23.380307,0</coordinates></Point></Placemark><Placemark><name>Point 24</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.69 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38035
+Longitude: 85.866505</description><Point><coordinates>85.866505,23.38035,0</coordinates></Point></Placemark><Placemark><name>Point 25</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.98 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380392
+Longitude: 85.866502</description><Point><coordinates>85.866502,23.380392,0</coordinates></Point></Placemark><Placemark><name>Point 26</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.54 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380434
+Longitude: 85.866498</description><Point><coordinates>85.866498,23.380434,0</coordinates></Point></Placemark><Placemark><name>Point 27</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.32 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380475
+Longitude: 85.866494</description><Point><coordinates>85.866494,23.380475,0</coordinates></Point></Placemark><Placemark><name>Point 28</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.93 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380515
+Longitude: 85.866491</description><Point><coordinates>85.866491,23.380515,0</coordinates></Point></Placemark><Placemark><name>Point 29</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.22 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380556
+Longitude: 85.866488</description><Point><coordinates>85.866488,23.380556,0</coordinates></Point></Placemark><Placemark><name>Point 30</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.09 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380598
+Longitude: 85.866486</description><Point><coordinates>85.866486,23.380598,0</coordinates></Point></Placemark><Placemark><name>Point 31</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.52 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380638
+Longitude: 85.866484</description><Point><coordinates>85.866484,23.380638,0</coordinates></Point></Placemark><Placemark><name>Point 32</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.24 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380677
+Longitude: 85.866483</description><Point><coordinates>85.866483,23.380677,0</coordinates></Point></Placemark><Placemark><name>Point 33</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.95 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380716
+Longitude: 85.866482</description><Point><coordinates>85.866482,23.380716,0</coordinates></Point></Placemark><Placemark><name>Point 34</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.54 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380756
+Longitude: 85.866482</description><Point><coordinates>85.866482,23.380756,0</coordinates></Point></Placemark><Placemark><name>Point 35</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.37 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380796
+Longitude: 85.866483</description><Point><coordinates>85.866483,23.380796,0</coordinates></Point></Placemark><Placemark><name>Point 36</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.39 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380834
+Longitude: 85.866483</description><Point><coordinates>85.866483,23.380834,0</coordinates></Point></Placemark><Placemark><name>Point 37</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.28 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380873
+Longitude: 85.866484</description><Point><coordinates>85.866484,23.380873,0</coordinates></Point></Placemark><Placemark><name>Point 38</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 16.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380913
+Longitude: 85.866485</description><Point><coordinates>85.866485,23.380913,0</coordinates></Point></Placemark><Placemark><name>Point 39</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.2 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380952
+Longitude: 85.866488</description><Point><coordinates>85.866488,23.380952,0</coordinates></Point></Placemark><Placemark><name>Point 40</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.19 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.380989
+Longitude: 85.86649</description><Point><coordinates>85.86649,23.380989,0</coordinates></Point></Placemark><Placemark><name>Point 41</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.06 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381026
+Longitude: 85.866492</description><Point><coordinates>85.866492,23.381026,0</coordinates></Point></Placemark><Placemark><name>Point 42</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 15.08 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381064
+Longitude: 85.866495</description><Point><coordinates>85.866495,23.381064,0</coordinates></Point></Placemark><Placemark><name>Point 43</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 14.96 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381102
+Longitude: 85.866499</description><Point><coordinates>85.866499,23.381102,0</coordinates></Point></Placemark><Placemark><name>Point 44</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 14.7 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381139
+Longitude: 85.866503</description><Point><coordinates>85.866503,23.381139,0</coordinates></Point></Placemark><Placemark><name>Point 45</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 14.85 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381175
+Longitude: 85.866506</description><Point><coordinates>85.866506,23.381175,0</coordinates></Point></Placemark><Placemark><name>Point 46</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 14.5 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381212
+Longitude: 85.86651</description><Point><coordinates>85.86651,23.381212,0</coordinates></Point></Placemark><Placemark><name>Point 47</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:36
+Speed: 14.46 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381248
+Longitude: 85.866514</description><Point><coordinates>85.866514,23.381248,0</coordinates></Point></Placemark><Placemark><name>Point 48</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.5 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381284
+Longitude: 85.866519</description><Point><coordinates>85.866519,23.381284,0</coordinates></Point></Placemark><Placemark><name>Point 49</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.24 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381318
+Longitude: 85.866523</description><Point><coordinates>85.866523,23.381318,0</coordinates></Point></Placemark><Placemark><name>Point 50</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.96 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381353
+Longitude: 85.866527</description><Point><coordinates>85.866527,23.381353,0</coordinates></Point></Placemark><Placemark><name>Point 51</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.8 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381387
+Longitude: 85.866532</description><Point><coordinates>85.866532,23.381387,0</coordinates></Point></Placemark><Placemark><name>Point 52</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.17 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381423
+Longitude: 85.866536</description><Point><coordinates>85.866536,23.381423,0</coordinates></Point></Placemark><Placemark><name>Point 53</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.2 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381458
+Longitude: 85.86654</description><Point><coordinates>85.86654,23.381458,0</coordinates></Point></Placemark><Placemark><name>Point 54</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.24 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381493
+Longitude: 85.866544</description><Point><coordinates>85.866544,23.381493,0</coordinates></Point></Placemark><Placemark><name>Point 55</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.11 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381529
+Longitude: 85.866547</description><Point><coordinates>85.866547,23.381529,0</coordinates></Point></Placemark><Placemark><name>Point 56</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.08 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381565
+Longitude: 85.866551</description><Point><coordinates>85.866551,23.381565,0</coordinates></Point></Placemark><Placemark><name>Point 57</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.3816
+Longitude: 85.866554</description><Point><coordinates>85.866554,23.3816,0</coordinates></Point></Placemark><Placemark><name>Point 58</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.87 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381635
+Longitude: 85.866558</description><Point><coordinates>85.866558,23.381635,0</coordinates></Point></Placemark><Placemark><name>Point 59</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 14.13 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381669
+Longitude: 85.866561</description><Point><coordinates>85.866561,23.381669,0</coordinates></Point></Placemark><Placemark><name>Point 60</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.89 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381705
+Longitude: 85.866565</description><Point><coordinates>85.866565,23.381705,0</coordinates></Point></Placemark><Placemark><name>Point 61</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.82 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381739
+Longitude: 85.866569</description><Point><coordinates>85.866569,23.381739,0</coordinates></Point></Placemark><Placemark><name>Point 62</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.87 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381773
+Longitude: 85.866573</description><Point><coordinates>85.866573,23.381773,0</coordinates></Point></Placemark><Placemark><name>Point 63</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.72 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381808
+Longitude: 85.866577</description><Point><coordinates>85.866577,23.381808,0</coordinates></Point></Placemark><Placemark><name>Point 64</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.93 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381843
+Longitude: 85.866581</description><Point><coordinates>85.866581,23.381843,0</coordinates></Point></Placemark><Placemark><name>Point 65</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.67 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381877
+Longitude: 85.866585</description><Point><coordinates>85.866585,23.381877,0</coordinates></Point></Placemark><Placemark><name>Point 66</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.76 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381911
+Longitude: 85.86659</description><Point><coordinates>85.86659,23.381911,0</coordinates></Point></Placemark><Placemark><name>Point 67</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.46 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381944
+Longitude: 85.866594</description><Point><coordinates>85.866594,23.381944,0</coordinates></Point></Placemark><Placemark><name>Point 68</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.43 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.381978
+Longitude: 85.866598</description><Point><coordinates>85.866598,23.381978,0</coordinates></Point></Placemark><Placemark><name>Point 69</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.33 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382012
+Longitude: 85.866602</description><Point><coordinates>85.866602,23.382012,0</coordinates></Point></Placemark><Placemark><name>Point 70</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.39 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382045
+Longitude: 85.866606</description><Point><coordinates>85.866606,23.382045,0</coordinates></Point></Placemark><Placemark><name>Point 71</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.61 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382079
+Longitude: 85.866609</description><Point><coordinates>85.866609,23.382079,0</coordinates></Point></Placemark><Placemark><name>Point 72</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.48 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382113
+Longitude: 85.866613</description><Point><coordinates>85.866613,23.382113,0</coordinates></Point></Placemark><Placemark><name>Point 73</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.19 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382147
+Longitude: 85.866616</description><Point><coordinates>85.866616,23.382147,0</coordinates></Point></Placemark><Placemark><name>Point 74</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.26 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38218
+Longitude: 85.866618</description><Point><coordinates>85.866618,23.38218,0</coordinates></Point></Placemark><Placemark><name>Point 75</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.13 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382214
+Longitude: 85.86662</description><Point><coordinates>85.86662,23.382214,0</coordinates></Point></Placemark><Placemark><name>Point 76</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.22 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382247
+Longitude: 85.866622</description><Point><coordinates>85.866622,23.382247,0</coordinates></Point></Placemark><Placemark><name>Point 77</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.06 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382281
+Longitude: 85.866624</description><Point><coordinates>85.866624,23.382281,0</coordinates></Point></Placemark><Placemark><name>Point 78</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 13.0 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382314
+Longitude: 85.866624</description><Point><coordinates>85.866624,23.382314,0</coordinates></Point></Placemark><Placemark><name>Point 79</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.89 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382346
+Longitude: 85.866625</description><Point><coordinates>85.866625,23.382346,0</coordinates></Point></Placemark><Placemark><name>Point 80</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.8 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382378
+Longitude: 85.866625</description><Point><coordinates>85.866625,23.382378,0</coordinates></Point></Placemark><Placemark><name>Point 81</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.39 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38241
+Longitude: 85.866625</description><Point><coordinates>85.866625,23.38241,0</coordinates></Point></Placemark><Placemark><name>Point 82</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.8 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382442
+Longitude: 85.866624</description><Point><coordinates>85.866624,23.382442,0</coordinates></Point></Placemark><Placemark><name>Point 83</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.35 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382473
+Longitude: 85.866624</description><Point><coordinates>85.866624,23.382473,0</coordinates></Point></Placemark><Placemark><name>Point 84</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.56 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382504
+Longitude: 85.866623</description><Point><coordinates>85.866623,23.382504,0</coordinates></Point></Placemark><Placemark><name>Point 85</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.43 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382535
+Longitude: 85.866622</description><Point><coordinates>85.866622,23.382535,0</coordinates></Point></Placemark><Placemark><name>Point 86</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382567
+Longitude: 85.866621</description><Point><coordinates>85.866621,23.382567,0</coordinates></Point></Placemark><Placemark><name>Point 87</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.28 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382597
+Longitude: 85.86662</description><Point><coordinates>85.86662,23.382597,0</coordinates></Point></Placemark><Placemark><name>Point 88</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.43 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382628
+Longitude: 85.866619</description><Point><coordinates>85.866619,23.382628,0</coordinates></Point></Placemark><Placemark><name>Point 89</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.46 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382659
+Longitude: 85.866617</description><Point><coordinates>85.866617,23.382659,0</coordinates></Point></Placemark><Placemark><name>Point 90</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.11 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38269
+Longitude: 85.866614</description><Point><coordinates>85.866614,23.38269,0</coordinates></Point></Placemark><Placemark><name>Point 91</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382721
+Longitude: 85.866611</description><Point><coordinates>85.866611,23.382721,0</coordinates></Point></Placemark><Placemark><name>Point 92</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.04 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382751
+Longitude: 85.866608</description><Point><coordinates>85.866608,23.382751,0</coordinates></Point></Placemark><Placemark><name>Point 93</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 12.22 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382781
+Longitude: 85.866605</description><Point><coordinates>85.866605,23.382781,0</coordinates></Point></Placemark><Placemark><name>Point 94</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.89 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382812
+Longitude: 85.866602</description><Point><coordinates>85.866602,23.382812,0</coordinates></Point></Placemark><Placemark><name>Point 95</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.87 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382842
+Longitude: 85.8666</description><Point><coordinates>85.8666,23.382842,0</coordinates></Point></Placemark><Placemark><name>Point 96</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.46 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382871
+Longitude: 85.866598</description><Point><coordinates>85.866598,23.382871,0</coordinates></Point></Placemark><Placemark><name>Point 97</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.91 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.3829
+Longitude: 85.866596</description><Point><coordinates>85.866596,23.3829,0</coordinates></Point></Placemark><Placemark><name>Point 98</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.89 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38293
+Longitude: 85.866595</description><Point><coordinates>85.866595,23.38293,0</coordinates></Point></Placemark><Placemark><name>Point 99</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.43 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382959
+Longitude: 85.866593</description><Point><coordinates>85.866593,23.382959,0</coordinates></Point></Placemark><Placemark><name>Point 100</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.65 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.382989
+Longitude: 85.866592</description><Point><coordinates>85.866592,23.382989,0</coordinates></Point></Placemark><Placemark><name>Point 101</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.59 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383018
+Longitude: 85.86659</description><Point><coordinates>85.86659,23.383018,0</coordinates></Point></Placemark><Placemark><name>Point 102</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.58 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383047
+Longitude: 85.866588</description><Point><coordinates>85.866588,23.383047,0</coordinates></Point></Placemark><Placemark><name>Point 103</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.43 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383076
+Longitude: 85.866586</description><Point><coordinates>85.866586,23.383076,0</coordinates></Point></Placemark><Placemark><name>Point 104</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.41 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383104
+Longitude: 85.866584</description><Point><coordinates>85.866584,23.383104,0</coordinates></Point></Placemark><Placemark><name>Point 105</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.11 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383132
+Longitude: 85.866583</description><Point><coordinates>85.866583,23.383132,0</coordinates></Point></Placemark><Placemark><name>Point 106</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.46 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383161
+Longitude: 85.86658</description><Point><coordinates>85.86658,23.383161,0</coordinates></Point></Placemark><Placemark><name>Point 107</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:37
+Speed: 11.11 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383188
+Longitude: 85.866579</description><Point><coordinates>85.866579,23.383188,0</coordinates></Point></Placemark><Placemark><name>Point 108</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 11.19 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383216
+Longitude: 85.866578</description><Point><coordinates>85.866578,23.383216,0</coordinates></Point></Placemark><Placemark><name>Point 109</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 11.04 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383245
+Longitude: 85.866578</description><Point><coordinates>85.866578,23.383245,0</coordinates></Point></Placemark><Placemark><name>Point 110</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.74 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383272
+Longitude: 85.866577</description><Point><coordinates>85.866577,23.383272,0</coordinates></Point></Placemark><Placemark><name>Point 111</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.8 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383299
+Longitude: 85.866575</description><Point><coordinates>85.866575,23.383299,0</coordinates></Point></Placemark><Placemark><name>Point 112</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.65 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383326
+Longitude: 85.866573</description><Point><coordinates>85.866573,23.383326,0</coordinates></Point></Placemark><Placemark><name>Point 113</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.89 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383353
+Longitude: 85.866572</description><Point><coordinates>85.866572,23.383353,0</coordinates></Point></Placemark><Placemark><name>Point 114</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.69 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383381
+Longitude: 85.866572</description><Point><coordinates>85.866572,23.383381,0</coordinates></Point></Placemark><Placemark><name>Point 115</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.69 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383408
+Longitude: 85.866572</description><Point><coordinates>85.866572,23.383408,0</coordinates></Point></Placemark><Placemark><name>Point 116</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.67 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383435
+Longitude: 85.866572</description><Point><coordinates>85.866572,23.383435,0</coordinates></Point></Placemark><Placemark><name>Point 117</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.59 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383462
+Longitude: 85.866572</description><Point><coordinates>85.866572,23.383462,0</coordinates></Point></Placemark><Placemark><name>Point 118</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.5 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383489
+Longitude: 85.866573</description><Point><coordinates>85.866573,23.383489,0</coordinates></Point></Placemark><Placemark><name>Point 119</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.39 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383516
+Longitude: 85.866574</description><Point><coordinates>85.866574,23.383516,0</coordinates></Point></Placemark><Placemark><name>Point 120</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.3 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383541
+Longitude: 85.866574</description><Point><coordinates>85.866574,23.383541,0</coordinates></Point></Placemark><Placemark><name>Point 121</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.32 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383567
+Longitude: 85.866574</description><Point><coordinates>85.866574,23.383567,0</coordinates></Point></Placemark><Placemark><name>Point 122</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.06 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383593
+Longitude: 85.866574</description><Point><coordinates>85.866574,23.383593,0</coordinates></Point></Placemark><Placemark><name>Point 123</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 9.96 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383619
+Longitude: 85.866574</description><Point><coordinates>85.866574,23.383619,0</coordinates></Point></Placemark><Placemark><name>Point 124</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 9.98 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383644
+Longitude: 85.866574</description><Point><coordinates>85.866574,23.383644,0</coordinates></Point></Placemark><Placemark><name>Point 125</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.06 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383669
+Longitude: 85.866573</description><Point><coordinates>85.866573,23.383669,0</coordinates></Point></Placemark><Placemark><name>Point 126</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 9.98 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383694
+Longitude: 85.866572</description><Point><coordinates>85.866572,23.383694,0</coordinates></Point></Placemark><Placemark><name>Point 127</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.0 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38372
+Longitude: 85.866572</description><Point><coordinates>85.866572,23.38372,0</coordinates></Point></Placemark><Placemark><name>Point 128</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.07 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383745
+Longitude: 85.866571</description><Point><coordinates>85.866571,23.383745,0</coordinates></Point></Placemark><Placemark><name>Point 129</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.26 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383771
+Longitude: 85.866569</description><Point><coordinates>85.866569,23.383771,0</coordinates></Point></Placemark><Placemark><name>Point 130</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.65 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383797
+Longitude: 85.866568</description><Point><coordinates>85.866568,23.383797,0</coordinates></Point></Placemark><Placemark><name>Point 131</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 10.91 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383824
+Longitude: 85.866565</description><Point><coordinates>85.866565,23.383824,0</coordinates></Point></Placemark><Placemark><name>Point 132</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 11.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383852
+Longitude: 85.866563</description><Point><coordinates>85.866563,23.383852,0</coordinates></Point></Placemark><Placemark><name>Point 133</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 11.58 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383881
+Longitude: 85.86656</description><Point><coordinates>85.86656,23.383881,0</coordinates></Point></Placemark><Placemark><name>Point 134</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 12.02 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38391
+Longitude: 85.866557</description><Point><coordinates>85.866557,23.38391,0</coordinates></Point></Placemark><Placemark><name>Point 135</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 12.54 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383941
+Longitude: 85.866554</description><Point><coordinates>85.866554,23.383941,0</coordinates></Point></Placemark><Placemark><name>Point 136</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 12.87 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.383973
+Longitude: 85.866551</description><Point><coordinates>85.866551,23.383973,0</coordinates></Point></Placemark><Placemark><name>Point 137</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 13.28 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384006
+Longitude: 85.866549</description><Point><coordinates>85.866549,23.384006,0</coordinates></Point></Placemark><Placemark><name>Point 138</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 13.76 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384039
+Longitude: 85.866548</description><Point><coordinates>85.866548,23.384039,0</coordinates></Point></Placemark><Placemark><name>Point 139</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 14.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384074
+Longitude: 85.866548</description><Point><coordinates>85.866548,23.384074,0</coordinates></Point></Placemark><Placemark><name>Point 140</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 14.7 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384111
+Longitude: 85.866548</description><Point><coordinates>85.866548,23.384111,0</coordinates></Point></Placemark><Placemark><name>Point 141</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 15.04 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384148
+Longitude: 85.866551</description><Point><coordinates>85.866551,23.384148,0</coordinates></Point></Placemark><Placemark><name>Point 142</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 15.48 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384186
+Longitude: 85.866554</description><Point><coordinates>85.866554,23.384186,0</coordinates></Point></Placemark><Placemark><name>Point 143</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 15.91 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384226
+Longitude: 85.866558</description><Point><coordinates>85.866558,23.384226,0</coordinates></Point></Placemark><Placemark><name>Point 144</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 16.59 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384267
+Longitude: 85.866562</description><Point><coordinates>85.866562,23.384267,0</coordinates></Point></Placemark><Placemark><name>Point 145</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 16.87 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384309
+Longitude: 85.866565</description><Point><coordinates>85.866565,23.384309,0</coordinates></Point></Placemark><Placemark><name>Point 146</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 17.52 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384352
+Longitude: 85.866569</description><Point><coordinates>85.866569,23.384352,0</coordinates></Point></Placemark><Placemark><name>Point 147</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 17.98 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384397
+Longitude: 85.866572</description><Point><coordinates>85.866572,23.384397,0</coordinates></Point></Placemark><Placemark><name>Point 148</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 18.28 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384443
+Longitude: 85.866575</description><Point><coordinates>85.866575,23.384443,0</coordinates></Point></Placemark><Placemark><name>Point 149</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 18.98 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38449
+Longitude: 85.866577</description><Point><coordinates>85.866577,23.38449,0</coordinates></Point></Placemark><Placemark><name>Point 150</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 19.41 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384538
+Longitude: 85.866578</description><Point><coordinates>85.866578,23.384538,0</coordinates></Point></Placemark><Placemark><name>Point 151</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 19.85 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384588
+Longitude: 85.866577</description><Point><coordinates>85.866577,23.384588,0</coordinates></Point></Placemark><Placemark><name>Point 152</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 20.22 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384638
+Longitude: 85.866575</description><Point><coordinates>85.866575,23.384638,0</coordinates></Point></Placemark><Placemark><name>Point 153</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 20.56 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384689
+Longitude: 85.866574</description><Point><coordinates>85.866574,23.384689,0</coordinates></Point></Placemark><Placemark><name>Point 154</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 21.06 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384741
+Longitude: 85.866574</description><Point><coordinates>85.866574,23.384741,0</coordinates></Point></Placemark><Placemark><name>Point 155</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 21.58 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384795
+Longitude: 85.866577</description><Point><coordinates>85.866577,23.384795,0</coordinates></Point></Placemark><Placemark><name>Point 156</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 22.17 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38485
+Longitude: 85.86658</description><Point><coordinates>85.86658,23.38485,0</coordinates></Point></Placemark><Placemark><name>Point 157</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 22.21 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384905
+Longitude: 85.866586</description><Point><coordinates>85.866586,23.384905,0</coordinates></Point></Placemark><Placemark><name>Point 158</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 22.19 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.384961
+Longitude: 85.866592</description><Point><coordinates>85.866592,23.384961,0</coordinates></Point></Placemark><Placemark><name>Point 159</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 22.17 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385016
+Longitude: 85.866598</description><Point><coordinates>85.866598,23.385016,0</coordinates></Point></Placemark><Placemark><name>Point 160</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 22.17 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385072
+Longitude: 85.866604</description><Point><coordinates>85.866604,23.385072,0</coordinates></Point></Placemark><Placemark><name>Point 161</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 21.39 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385126
+Longitude: 85.86661</description><Point><coordinates>85.86661,23.385126,0</coordinates></Point></Placemark><Placemark><name>Point 162</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 21.02 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385179
+Longitude: 85.866615</description><Point><coordinates>85.866615,23.385179,0</coordinates></Point></Placemark><Placemark><name>Point 163</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 19.56 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38523
+Longitude: 85.86662</description><Point><coordinates>85.86662,23.38523,0</coordinates></Point></Placemark><Placemark><name>Point 164</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 18.48 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385276
+Longitude: 85.866626</description><Point><coordinates>85.866626,23.385276,0</coordinates></Point></Placemark><Placemark><name>Point 165</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 17.46 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385321
+Longitude: 85.866633</description><Point><coordinates>85.866633,23.385321,0</coordinates></Point></Placemark><Placemark><name>Point 166</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 16.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385363
+Longitude: 85.86664</description><Point><coordinates>85.86664,23.385363,0</coordinates></Point></Placemark><Placemark><name>Point 167</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:38
+Speed: 14.72 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.3854
+Longitude: 85.866647</description><Point><coordinates>85.866647,23.3854,0</coordinates></Point></Placemark><Placemark><name>Point 168</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 13.91 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385436
+Longitude: 85.866653</description><Point><coordinates>85.866653,23.385436,0</coordinates></Point></Placemark><Placemark><name>Point 169</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 14.26 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385471
+Longitude: 85.86666</description><Point><coordinates>85.86666,23.385471,0</coordinates></Point></Placemark><Placemark><name>Point 170</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 13.67 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385505
+Longitude: 85.866668</description><Point><coordinates>85.866668,23.385505,0</coordinates></Point></Placemark><Placemark><name>Point 171</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 12.32 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385536
+Longitude: 85.866675</description><Point><coordinates>85.866675,23.385536,0</coordinates></Point></Placemark><Placemark><name>Point 172</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 11.7 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385565
+Longitude: 85.866683</description><Point><coordinates>85.866683,23.385565,0</coordinates></Point></Placemark><Placemark><name>Point 173</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 12.11 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385594
+Longitude: 85.866691</description><Point><coordinates>85.866691,23.385594,0</coordinates></Point></Placemark><Placemark><name>Point 174</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 12.37 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385624
+Longitude: 85.866699</description><Point><coordinates>85.866699,23.385624,0</coordinates></Point></Placemark><Placemark><name>Point 175</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 11.89 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385653
+Longitude: 85.866708</description><Point><coordinates>85.866708,23.385653,0</coordinates></Point></Placemark><Placemark><name>Point 176</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 10.63 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38568
+Longitude: 85.866716</description><Point><coordinates>85.866716,23.38568,0</coordinates></Point></Placemark><Placemark><name>Point 177</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 10.69 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385706
+Longitude: 85.866725</description><Point><coordinates>85.866725,23.385706,0</coordinates></Point></Placemark><Placemark><name>Point 178</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 11.28 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385732
+Longitude: 85.866734</description><Point><coordinates>85.866734,23.385732,0</coordinates></Point></Placemark><Placemark><name>Point 179</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 11.54 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385759
+Longitude: 85.866744</description><Point><coordinates>85.866744,23.385759,0</coordinates></Point></Placemark><Placemark><name>Point 180</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 11.17 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385785
+Longitude: 85.866754</description><Point><coordinates>85.866754,23.385785,0</coordinates></Point></Placemark><Placemark><name>Point 181</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 10.26 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385811
+Longitude: 85.866764</description><Point><coordinates>85.866764,23.385811,0</coordinates></Point></Placemark><Placemark><name>Point 182</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 10.09 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385834
+Longitude: 85.866774</description><Point><coordinates>85.866774,23.385834,0</coordinates></Point></Placemark><Placemark><name>Point 183</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 10.19 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385858
+Longitude: 85.866784</description><Point><coordinates>85.866784,23.385858,0</coordinates></Point></Placemark><Placemark><name>Point 184</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 9.82 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385881
+Longitude: 85.866795</description><Point><coordinates>85.866795,23.385881,0</coordinates></Point></Placemark><Placemark><name>Point 185</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 9.41 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385903
+Longitude: 85.866805</description><Point><coordinates>85.866805,23.385903,0</coordinates></Point></Placemark><Placemark><name>Point 186</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 9.28 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385925
+Longitude: 85.866814</description><Point><coordinates>85.866814,23.385925,0</coordinates></Point></Placemark><Placemark><name>Point 187</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 9.09 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385945
+Longitude: 85.866825</description><Point><coordinates>85.866825,23.385945,0</coordinates></Point></Placemark><Placemark><name>Point 188</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 8.96 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385965
+Longitude: 85.866835</description><Point><coordinates>85.866835,23.385965,0</coordinates></Point></Placemark><Placemark><name>Point 189</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 8.46 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.385985
+Longitude: 85.866845</description><Point><coordinates>85.866845,23.385985,0</coordinates></Point></Placemark><Placemark><name>Point 190</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 8.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386004
+Longitude: 85.866855</description><Point><coordinates>85.866855,23.386004,0</coordinates></Point></Placemark><Placemark><name>Point 191</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 8.11 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386022
+Longitude: 85.866866</description><Point><coordinates>85.866866,23.386022,0</coordinates></Point></Placemark><Placemark><name>Point 192</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 8.06 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38604
+Longitude: 85.866875</description><Point><coordinates>85.866875,23.38604,0</coordinates></Point></Placemark><Placemark><name>Point 193</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 7.67 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386058
+Longitude: 85.866885</description><Point><coordinates>85.866885,23.386058,0</coordinates></Point></Placemark><Placemark><name>Point 194</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 7.54 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386076
+Longitude: 85.866895</description><Point><coordinates>85.866895,23.386076,0</coordinates></Point></Placemark><Placemark><name>Point 195</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 7.3 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386092
+Longitude: 85.866904</description><Point><coordinates>85.866904,23.386092,0</coordinates></Point></Placemark><Placemark><name>Point 196</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 7.17 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386109
+Longitude: 85.866914</description><Point><coordinates>85.866914,23.386109,0</coordinates></Point></Placemark><Placemark><name>Point 197</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.91 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386125
+Longitude: 85.866923</description><Point><coordinates>85.866923,23.386125,0</coordinates></Point></Placemark><Placemark><name>Point 198</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.8 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38614
+Longitude: 85.866932</description><Point><coordinates>85.866932,23.38614,0</coordinates></Point></Placemark><Placemark><name>Point 199</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.7 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386155
+Longitude: 85.866941</description><Point><coordinates>85.866941,23.386155,0</coordinates></Point></Placemark><Placemark><name>Point 200</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.39 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386169
+Longitude: 85.86695</description><Point><coordinates>85.86695,23.386169,0</coordinates></Point></Placemark><Placemark><name>Point 201</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.2 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386183
+Longitude: 85.866958</description><Point><coordinates>85.866958,23.386183,0</coordinates></Point></Placemark><Placemark><name>Point 202</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.07 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386197
+Longitude: 85.866967</description><Point><coordinates>85.866967,23.386197,0</coordinates></Point></Placemark><Placemark><name>Point 203</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38621
+Longitude: 85.866975</description><Point><coordinates>85.866975,23.38621,0</coordinates></Point></Placemark><Placemark><name>Point 204</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.28 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386223
+Longitude: 85.866984</description><Point><coordinates>85.866984,23.386223,0</coordinates></Point></Placemark><Placemark><name>Point 205</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.67 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386236
+Longitude: 85.866992</description><Point><coordinates>85.866992,23.386236,0</coordinates></Point></Placemark><Placemark><name>Point 206</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 7.37 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386252
+Longitude: 85.867002</description><Point><coordinates>85.867002,23.386252,0</coordinates></Point></Placemark><Placemark><name>Point 207</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 7.7 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386268
+Longitude: 85.867013</description><Point><coordinates>85.867013,23.386268,0</coordinates></Point></Placemark><Placemark><name>Point 208</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 7.15 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386283
+Longitude: 85.867024</description><Point><coordinates>85.867024,23.386283,0</coordinates></Point></Placemark><Placemark><name>Point 209</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 6.63 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386297
+Longitude: 85.867035</description><Point><coordinates>85.867035,23.386297,0</coordinates></Point></Placemark><Placemark><name>Point 210</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 5.67 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38631
+Longitude: 85.867044</description><Point><coordinates>85.867044,23.38631,0</coordinates></Point></Placemark><Placemark><name>Point 211</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 4.37 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386321
+Longitude: 85.867051</description><Point><coordinates>85.867051,23.386321,0</coordinates></Point></Placemark><Placemark><name>Point 212</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 2.91 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386328
+Longitude: 85.867057</description><Point><coordinates>85.867057,23.386328,0</coordinates></Point></Placemark><Placemark><name>Point 213</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 0.0 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.386331
+Longitude: 85.867059</description><Point><coordinates>85.867059,23.386331,0</coordinates></Point></Placemark><Placemark><name>Point 214</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 0.0 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38633
+Longitude: 85.867058</description><Point><coordinates>85.867058,23.38633,0</coordinates></Point></Placemark><Placemark><name>Point 215</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 0.0 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38633
+Longitude: 85.867058</description><Point><coordinates>85.867058,23.38633,0</coordinates></Point></Placemark><Placemark><name>Point 216</name><styleUrl>#pointStyle</styleUrl><description>Logging Time: 16-08-2026 01:39
+Speed: 0.0 km/h
+Station: MURI
+Device ID: 8495
+Latitude: 23.38633
+Longitude: 85.867058</description><Point><coordinates>85.867058,23.38633,0</coordinates></Point></Placemark></Document></kml>

@@ -564,8 +564,6 @@ kbd {
 /* PT. No. 78 label */
 .pt78-label {
     position: absolute;
-    top: 22%;
-    left: 17%;
     z-index: 6;
     pointer-events: none;
 }
@@ -582,12 +580,9 @@ kbd {
     text-shadow: 0 0 10px rgba(239, 68, 68, 0.3);
 }
 
-/* Derailment marker */
 .derailment-marker {
     position: absolute;
-    top: 48%;
-    left: 52%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     z-index: 5;
     animation: pulseMarker 2s ease-in-out infinite;

@@ -155,35 +155,137 @@ document.addEventListener('keydown', (e) => {
 
 // (SVG handles track rendering — no sleepers needed)
 
-// ===== DISTANCE MARKERS =====
-// Map distance (0-746m) to track position (x%, y%)
-// Path: UP line → crossover → DN line → turnout → branch track (curving SE)
-function getTrackPosition(distance) {
-    const t = distance / 746; // normalize 0-1
-    // X: moves from ~3% to ~92% (left to right)
-    const x = 3 + t * 89;
-    // Y: starts at UP line (~15%), crosses to DN (~26%), then curves down to ~78%
-    let y;
-    if (t < 0.05) {
-        // On UP line
-        y = 15;
-    } else if (t < 0.12) {
-        // Crossover UP → DN
-        const ct = (t - 0.05) / 0.07;
-        y = 15 + ct * 11;
-    } else if (t < 0.20) {
-        // On DN line
-        y = 26;
-    } else if (t < 0.30) {
-        // Turnout DN → Branch
-        const ct = (t - 0.20) / 0.10;
-        y = 26 + ct * 12;
+function getTrackPixelPos(d) {
+    let x, y;
+    if (d <= 478) {
+        x = 40 + d * 1.5;
+        y = 62;
+    } else if (d <= 517) {
+        let t = (d - 478) / 39;
+        let smoothT = t * t * (3 - 2 * t); 
+        x = 40 + 478 * 1.5 + t * 39 * 1.5;
+        y = 62 + smoothT * 40;
+    } else if (d <= 554) {
+        x = 40 + d * 1.5;
+        y = 102;
     } else {
-        // On branch track curving SE
-        const ct = (t - 0.30) / 0.70;
-        y = 38 + ct * 38;
+        let t = d - 554;
+        let yOffset = 0, xOffset = 0;
+        if (t < 50) {
+            yOffset = 0.006 * t * t;
+            xOffset = t * 1.5;
+        } else {
+            yOffset = 0.006 * 50 * 50 + 0.6 * (t - 50);
+            xOffset = 50 * 1.5 + (t - 50) * 1.5 * 0.85;
+        }
+        x = 40 + 554 * 1.5 + xOffset;
+        y = 102 + yOffset;
     }
     return { x, y };
+}
+
+function getTrackPosition(distance) {
+    const p = getTrackPixelPos(distance);
+    return {
+        x: (p.x / 1200) * 100,
+        y: (p.y / 380) * 100
+    };
+}
+
+function drawTrack() {
+    const g = document.getElementById('dynamic-tracks');
+    if (!g) return;
+    g.innerHTML = '';
+    
+    let centerPath = 'M ';
+    let rail1 = 'M ';
+    let rail2 = 'M ';
+    
+    for (let d = 0; d <= 746; d += 2) {
+        const p = getTrackPixelPos(d);
+        centerPath += `${p.x.toFixed(1)},${p.y.toFixed(1)} `;
+        
+        const pNext = getTrackPixelPos(d + 1);
+        const dx = pNext.x - p.x;
+        const dy = pNext.y - p.y;
+        const len = Math.hypot(dx, dy) || 1;
+        const nx = -dy / len;
+        const ny = dx / len;
+        
+        const r1x = p.x + nx * 7.5;
+        const r1y = p.y + ny * 7.5;
+        const r2x = p.x - nx * 7.5;
+        const r2y = p.y - ny * 7.5;
+        
+        if (d === 0) {
+            rail1 += `${r1x.toFixed(1)},${r1y.toFixed(1)} `;
+            rail2 += `${r2x.toFixed(1)},${r2y.toFixed(1)} `;
+        } else {
+            rail1 += `L ${r1x.toFixed(1)},${r1y.toFixed(1)} `;
+            rail2 += `L ${r2x.toFixed(1)},${r2y.toFixed(1)} `;
+        }
+    }
+    
+    const centerNode = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    centerNode.setAttribute('d', centerPath);
+    centerNode.setAttribute('stroke', '#06b6d4');
+    centerNode.setAttribute('stroke-width', '4');
+    centerNode.setAttribute('fill', 'none');
+    centerNode.setAttribute('opacity', '0.2');
+    
+    const r1Node = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    r1Node.setAttribute('d', rail1);
+    r1Node.setAttribute('stroke', '#4a5568');
+    r1Node.setAttribute('stroke-width', '2.5');
+    r1Node.setAttribute('fill', 'none');
+    r1Node.setAttribute('opacity', '0.4');
+    
+    const r2Node = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    r2Node.setAttribute('d', rail2);
+    r2Node.setAttribute('stroke', '#4a5568');
+    r2Node.setAttribute('stroke-width', '2.5');
+    r2Node.setAttribute('fill', 'none');
+    r2Node.setAttribute('opacity', '0.4');
+    
+    g.appendChild(r1Node);
+    g.appendChild(r2Node);
+    g.appendChild(centerNode);
+    
+    // Update drag path (554m to 632m)
+    const dragPathNode = document.getElementById('drag-path');
+    if (dragPathNode) {
+        let dragStr = 'M ';
+        for (let d = 554; d <= 632; d += 2) {
+            const p = getTrackPixelPos(d);
+            if (d === 554) dragStr += `${p.x.toFixed(1)},${p.y.toFixed(1)} `;
+            else dragStr += `L ${p.x.toFixed(1)},${p.y.toFixed(1)} `;
+        }
+        dragPathNode.setAttribute('d', dragStr);
+    }
+    
+    const dragTextNode = document.getElementById('drag-text');
+    if (dragTextNode) {
+        const pMid = getTrackPixelPos(593); // Midpoint of 554 and 632
+        const pNext = getTrackPixelPos(594);
+        const angle = Math.atan2(pNext.y - pMid.y, pNext.x - pMid.x) * 180 / Math.PI;
+        dragTextNode.setAttribute('x', pMid.x);
+        dragTextNode.setAttribute('y', pMid.y + 15);
+        dragTextNode.setAttribute('transform', `rotate(${angle}, ${pMid.x}, ${pMid.y + 15})`);
+    }
+    
+    // Dynamically position markers to match exactly 554m (PT 78 / Derailment point)
+    const pt78Pos = getTrackPosition(554);
+    const pt78Label = document.querySelector('.pt78-label');
+    if (pt78Label) {
+        pt78Label.style.left = pt78Pos.x + '%';
+        pt78Label.style.top = pt78Pos.y + '%';
+        pt78Label.style.transform = 'translate(-30px, -30px)'; 
+    }
+    const derailMarker = document.querySelector('.derailment-marker');
+    if (derailMarker) {
+        derailMarker.style.left = pt78Pos.x + '%';
+        derailMarker.style.top = pt78Pos.y + '%';
+    }
 }
 
 function createDistanceMarkers() {
@@ -247,6 +349,7 @@ btnReset.addEventListener('click', resetAnimation);
 
 function initAnimation() {
     animationStarted = true;
+    drawTrack();
     createDistanceMarkers();
     resetAnimation();
     drawMiniGraph();
@@ -373,10 +476,10 @@ function getAngle(d) {
 function updateTrainPosition(idx) {
     const offsets = [
         { id: 'loco', offset: 0, w: 32 },
-        { id: 'coach-1', offset: -22, w: 34 },
-        { id: 'coach-2', offset: -45, w: 34 },
-        { id: 'coach-3', offset: -68, w: 34 },
-        { id: 'coach-4', offset: -91, w: 34 }
+        { id: 'coach-1', offset: -36, w: 34 },
+        { id: 'coach-2', offset: -72, w: 34 },
+        { id: 'coach-3', offset: -108, w: 34 },
+        { id: 'coach-4', offset: -144, w: 34 }
     ];
     
     offsets.forEach(unit => {
