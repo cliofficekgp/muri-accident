@@ -415,20 +415,24 @@ function getAngle(d) {
 }
 
 function updateTrainPosition(idx) {
+    // Build offsets for all 25 units: Loco at front, coaches 1-24 trailing behind
+    // Each coach is 26m behind the previous (matching original spacing)
     const offsets = [
-        { id: 'loco', offset: 0, w: 32 },
-        { id: 'coach-1', offset: -26, w: 34 },
-        { id: 'coach-2', offset: -52, w: 34 },
-        { id: 'coach-3', offset: -78, w: 34 },
-        { id: 'coach-4', offset: -104, w: 34 }
+        { id: 'loco', offset: 0, w: 32 }
     ];
+    for (let i = 1; i <= 24; i++) {
+        offsets.push({ id: 'coach-' + i, offset: -26 * i, w: 34 });
+    }
 
     offsets.forEach(unit => {
         let d = totalDistanceCovered + unit.offset;
 
-        // Handle coupler parting for coach-4 when derailed
-        if (derailed && unit.id === 'coach-4') {
-            d -= 9; // 9m apart
+        // Handle coupler parting for coach-4 and all coaches behind it when derailed
+        if (derailed && unit.id.startsWith('coach-')) {
+            const coachNum = parseInt(unit.id.split('-')[1]);
+            if (coachNum >= 4) {
+                d -= 9; // 9m parting gap
+            }
         }
 
         if (d < 0) d = 0;
