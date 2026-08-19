@@ -495,7 +495,6 @@ kbd {
     inset: 0;
     pointer-events: none;
     z-index: 4;
-    background-color: #cbd5e1;
 }
 
 .dist-marker {
