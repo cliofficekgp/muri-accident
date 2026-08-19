@@ -490,6 +490,7 @@ function triggerDerailment(speed) {
     if (coachFlash) {
         coachFlash.textContent = (speed !== undefined ? speed : '12') + ' kmph';
         coachFlash.classList.add('visible');
+        setTimeout(() => coachFlash.classList.remove('visible'), 3000);
     }
 
     // After some frames, show final state
